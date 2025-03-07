@@ -28,6 +28,15 @@
 <p>送自己的一段话：</p>
 <p>​		工作只是生活的一部分，请保持对生活的欢喜，继续坚持内心的想法，多多肯定自己 ✌️。</p>
 <p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250307145157653.png" alt="image-20250307145157653"></p>
+<h3 id="git-推送"><a href="#git-推送" class="headerlink" title="git 推送"></a>git 推送</h3><p>检查 .git 状态</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">git status</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>初始化仓库</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">cd .deploy_git</span><br><span class="line">git init</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>清理重新部署</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <tags>
         <tag>Start Page</tag>
