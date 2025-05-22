@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head prefix="og: https://ogp.me/ns#">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  
+  <title>公告和消息通知系统升级 - Sitan&#39;s Blog</title>
+  
+    <link rel="shortcut icon" href="/sitan/sitan/hello.jpg">
+  
+  
+    <link rel='manifest' href='/manifest.json'>
+  
+
+  
+  
+  
+  <meta property="og:title" content="公告和消息通知系统升级 - Sitan&#39;s Blog" />
+  
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:url" content="https://6wensitan.github.io/sitan/2025/05/22/%E5%85%AC%E5%91%8A%E5%92%8C%E6%B6%88%E6%81%AF%E9%80%9A%E7%9F%A5%E7%B3%BB%E7%BB%9F%E5%8D%87%E7%BA%A7/index.html" />
+  
+  <meta property="og:image" content="/sitan/hello.jpg" />
+  
+  <meta property="og:article:published_time" content="2025-05-22T15:36:56.000Z" />
+  
+  <meta property="og:article:author" content="Sitan Park" />
+  
+  
+
+  
+<link rel="stylesheet" href="/sitan/css/var.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/main.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/typography.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/code-highlighting.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/components.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/nav.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/paginator.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/footer.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/post-list.css">
+
+  
+  
+<link rel="stylesheet" href="/sitan/css/rainbow-banner.css">
+
+  
+  
+  
+<link rel="stylesheet" href="/sitan/css/toc.css">
+
+  
+  
+  
+  
+  
+<link rel="stylesheet" href="/sitan/css/post.css">
+
+  
+  
+  
+  
+  
+
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+    <body
+        data-color-scheme="auto"
+        data-uppercase-categories="true"
+        
+        data-rainbow-banner="true"
+        data-rainbow-banner-shown="auto"
+        data-rainbow-banner-month="6"
+        data-rainbow-banner-colors="#e50000,#ff8d00,#ffee00,#008121,#004cff,#760188"
+        
+        data-config-root="/sitan/"
+        
+        data-toc="true"
+        data-toc-max-depth="2"
+        
+        
+    >
+        <nav id="theme-nav">
+    <div class="inner">
+        <a class="title" href="/sitan/">Blog</a>
+        <div class="nav-arrow"></div>
+        <div class="nav-items">
+            <a class="nav-item nav-item-home" href="/sitan/">Home</a>
+            
+            
+            <a class="nav-item" href="/sitan/archives">Archives</a>
+            
+            
+            
+            <a class="nav-item" href="/sitan/about">About</a>
+            
+            
+            
+            <a class="nav-item nav-item-github nav-item-icon" href="https://github.com/6wensitan" target="_blank" aria-label="GitHub">&nbsp;</a>
+            
+            
+            
+            <a class="nav-item" target="_blank" rel="noopener" href="https://www.youtube.com/@sitanwen8960">Youtube</a>
+            
+            
+        </div>
+    </div>
+</nav>
+        
+<article class="post">
+    <div class="meta">
+        
+
+        
+        <div class="date" id="date">
+            <span>May</span>
+            <span>22,</span>
+            <span>2025</span>
+        </div>
+        
+
+        <h1 class="title">公告和消息通知系统升级</h1>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="content">
+        <h1 id="公告和消息通知系统升级"><a href="#公告和消息通知系统升级" class="headerlink" title="公告和消息通知系统升级"></a>公告和消息通知系统升级</h1><h2 id="第一部分：需求规格说明"><a href="#第一部分：需求规格说明" class="headerlink" title="第一部分：需求规格说明"></a>第一部分：需求规格说明</h2><h3 id="1-项目概述"><a href="#1-项目概述" class="headerlink" title="1. 项目概述"></a>1. 项目概述</h3><p>本项目旨在对现有的公告功能进行全面升级改造，将其扩展为一个集成的公告和消息通知系统。新系统将支持个人消息推送、实时通知和多样化的展示方式，提升用户体验和系统交互效率。</p>
+<h3 id="2-涉及模块"><a href="#2-涉及模块" class="headerlink" title="2. 涉及模块"></a>2. 涉及模块</h3><ul>
+<li><strong>gv-system</strong>：系统核心模块</li>
+<li><strong>gv-common</strong>：公共组件模块</li>
+</ul>
+<h3 id="3-功能需求"><a href="#3-功能需求" class="headerlink" title="3. 功能需求"></a>3. 功能需求</h3><h4 id="3-1-消息类型扩展"><a href="#3-1-消息类型扩展" class="headerlink" title="3.1 消息类型扩展"></a>3.1 消息类型扩展</h4><ul>
+<li>增加带系统超链接的消息类型，支持用户点击后跳转至具体的系统页面</li>
+<li>区分公告（全体用户）和消息（个人专属）两种主要类型</li>
+</ul>
+<h4 id="3-2-界面改造"><a href="#3-2-界面改造" class="headerlink" title="3.2 界面改造"></a>3.2 界面改造</h4><h5 id="3-2-1-消息公告悬浮窗"><a href="#3-2-1-消息公告悬浮窗" class="headerlink" title="3.2.1 消息公告悬浮窗"></a>3.2.1 消息公告悬浮窗</h5><ul>
+<li>鼠标悬浮在通知图标上时，默认展示最新的10条消息&#x2F;公告</li>
+<li>窗口底部增加”查看更多”选项，点击后跳转至完整的消息公告列表页面</li>
+</ul>
+<h5 id="3-2-2-公告页面改造"><a href="#3-2-2-公告页面改造" class="headerlink" title="3.2.2 公告页面改造"></a>3.2.2 公告页面改造</h5><ul>
+<li>在原有公告页面基础上增加页签，区分”消息”与”公告”</li>
+<li>统一展示字段，使页面可以同时支持展示个人消息和系统公告</li>
+<li>支持按类型、日期等条件进行筛选和排序</li>
+</ul>
+<h4 id="3-3-消息推送方式"><a href="#3-3-消息推送方式" class="headerlink" title="3.3 消息推送方式"></a>3.3 消息推送方式</h4><p>实现三种消息推送展示方式：</p>
+<ol>
+<li><strong>中断提示弹窗</strong>：强制用户查看，包含”确认”按钮，点击确认之后消息标记‘已读’</li>
+<li><strong>右上角不中断弹窗</strong>：不打断用户工作流程，有个‘X’关闭按钮，点击之后标记为‘已读’</li>
+<li><strong>默认不弹出</strong>：仅在通知图标上显示未读消息数量（+1），点击去之后，如果点击链接直接跳转相关操作页面‘同时将标记为已读’</li>
+</ol>
+<h4 id="3-4-实时通知机制"><a href="#3-4-实时通知机制" class="headerlink" title="3.4 实时通知机制"></a>3.4 实时通知机制</h4><ul>
+<li>采用WebSocket技术实现实时消息推送</li>
+<li>当发送者创建消息&#x2F;公告时，接收者能够即时收到通知</li>
+</ul>
+<h4 id="3-5-离线消息处理"><a href="#3-5-离线消息处理" class="headerlink" title="3.5 离线消息处理"></a>3.5 离线消息处理</h4><ul>
+<li>WebSocket连接断开后的消息将存储在系统中</li>
+<li>用户下次登录时，按照原定的弹出方式显示离线期间产生的消息</li>
+<li>提示用户还有多少条信息未读</li>
+</ul>
+<h4 id="3-6-审批模板（特殊消息处理）"><a href="#3-6-审批模板（特殊消息处理）" class="headerlink" title="3.6 审批模板（特殊消息处理）"></a>3.6 审批模板（特殊消息处理）</h4><ul>
+<li>前端提供常规审批模板，支持用户直接在消息通知中进行操作</li>
+<li>包含消息内容展示、”审批”和”拒绝”按钮</li>
+</ul>
+<h2 id="第二部分：技术实现方案"><a href="#第二部分：技术实现方案" class="headerlink" title="第二部分：技术实现方案"></a>第二部分：技术实现方案</h2><h3 id="1-系统架构设计"><a href="#1-系统架构设计" class="headerlink" title="1. 系统架构设计"></a>1. 系统架构设计</h3><h4 id="1-1-整体架构"><a href="#1-1-整体架构" class="headerlink" title="1.1 整体架构"></a>1.1 整体架构</h4><p>系统将采用前后端分离架构，后端基于现有的gv-system和gv-common模块进行扩展，前端负责消息展示和交互处理。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">    User(用户) --&gt; FrontEnd(前端应用)</span><br><span class="line">    FrontEnd &lt;--&gt; |HTTP请求| BackEnd(后端服务)</span><br><span class="line">    FrontEnd &lt;--&gt; |WebSocket| WSService(WebSocket服务)</span><br><span class="line">    BackEnd --&gt; Database[(数据库)]</span><br><span class="line">    WSService --&gt; Database</span><br><span class="line">    </span><br><span class="line">    subgraph 前端组件</span><br><span class="line">        FrontEnd --&gt; NotificationIcon(通知图标)</span><br><span class="line">        FrontEnd --&gt; HoverPanel(悬浮面板)</span><br><span class="line">        FrontEnd --&gt; Popups(弹窗组件)</span><br><span class="line">        FrontEnd --&gt; NotificationPage(消息公告页面)</span><br><span class="line">        FrontEnd --&gt; ApprovalTemplate(快速审批模板)</span><br><span class="line">    end</span><br><span class="line">    </span><br><span class="line">    subgraph 后端服务</span><br><span class="line">        BackEnd --&gt; MessageService(消息服务)</span><br><span class="line">        BackEnd --&gt; PushService(推送服务)</span><br><span class="line">        BackEnd --&gt; AnnotationProcessor(注解处理器)</span><br><span class="line">        WSService --&gt; MessageQueue(消息队列)</span><br><span class="line">    end</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-详细技术实现"><a href="#2-详细技术实现" class="headerlink" title="2. 详细技术实现"></a>2. 详细技术实现</h3><h4 id="2-1-消息推送流程"><a href="#2-1-消息推送流程" class="headerlink" title="2.1 消息推送流程"></a>2.1 消息推送流程</h4><h5 id="2-1-1-中断提示弹窗流程"><a href="#2-1-1-中断提示弹窗流程" class="headerlink" title="2.1.1 中断提示弹窗流程"></a>2.1.1 中断提示弹窗流程</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">    participant System as 系统服务</span><br><span class="line">    participant MessageService as 消息服务</span><br><span class="line">    participant WSServer as WebSocket服务</span><br><span class="line">    participant WSClient as WebSocket客户端</span><br><span class="line">    participant UI as 用户界面</span><br><span class="line">    </span><br><span class="line">    System-&gt;&gt;MessageService: 调用消息推送方法(紧急级别=高)</span><br><span class="line">    MessageService-&gt;&gt;MessageService: 创建消息记录</span><br><span class="line">    MessageService-&gt;&gt;WSServer: 发送消息(接收者ID, 消息内容, 展示方式=中断弹窗)</span><br><span class="line">    WSServer-&gt;&gt;WSClient: 推送消息</span><br><span class="line">    WSClient-&gt;&gt;UI: 显示中断弹窗</span><br><span class="line">    Note over UI: 用户无法继续操作直到处理该消息</span><br><span class="line">    </span><br><span class="line">    alt 用户点击确认</span><br><span class="line">        UI-&gt;&gt;WSClient: 确认消息</span><br><span class="line">        WSClient-&gt;&gt;WSServer: 发送确认信息</span><br><span class="line">        WSServer-&gt;&gt;MessageService: 更新消息状态为已读</span><br><span class="line">    end</span><br></pre></td></tr></table></figure>
+
+<h5 id="2-1-2-不中断弹窗流程"><a href="#2-1-2-不中断弹窗流程" class="headerlink" title="2.1.2 不中断弹窗流程"></a>2.1.2 不中断弹窗流程</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">    participant System as 系统服务</span><br><span class="line">    participant MessageService as 消息服务</span><br><span class="line">    participant WSServer as WebSocket服务</span><br><span class="line">    participant WSClient as WebSocket客户端</span><br><span class="line">    participant UI as 用户界面</span><br><span class="line">    </span><br><span class="line">    System-&gt;&gt;MessageService: 调用消息推送方法(紧急级别=中)</span><br><span class="line">    MessageService-&gt;&gt;MessageService: 创建消息记录</span><br><span class="line">    MessageService-&gt;&gt;WSServer: 发送消息(接收者ID, 消息内容, 展示方式=不中断弹窗)</span><br><span class="line">    WSServer-&gt;&gt;WSClient: 推送消息</span><br><span class="line">    WSClient-&gt;&gt;UI: 显示右上角弹窗</span><br><span class="line">    Note over UI: 用户可以继续操作系统</span><br><span class="line">    </span><br><span class="line">    alt 用户点击确认</span><br><span class="line">        UI-&gt;&gt;WSClient: 确认消息</span><br><span class="line">        WSClient-&gt;&gt;WSServer: 发送确认信息</span><br><span class="line">        WSServer-&gt;&gt;MessageService: 更新消息状态为已读</span><br><span class="line">    else 用户忽略消息</span><br><span class="line">        Note over WSClient: 弹窗自动消失后</span><br><span class="line">        WSClient-&gt;&gt;WSServer: 发送已显示信息</span><br><span class="line">        WSServer-&gt;&gt;MessageService: 更新消息状态为已显示未读</span><br><span class="line">    end</span><br></pre></td></tr></table></figure>
+
+<h5 id="2-1-3-默认不弹出流程"><a href="#2-1-3-默认不弹出流程" class="headerlink" title="2.1.3 默认不弹出流程"></a>2.1.3 默认不弹出流程</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">    participant System as 系统服务</span><br><span class="line">    participant MessageService as 消息服务</span><br><span class="line">    participant WSServer as WebSocket服务</span><br><span class="line">    participant WSClient as WebSocket客户端</span><br><span class="line">    participant UI as 用户界面</span><br><span class="line">    </span><br><span class="line">    System-&gt;&gt;MessageService: 调用消息推送方法(紧急级别=低)</span><br><span class="line">    MessageService-&gt;&gt;MessageService: 创建消息记录</span><br><span class="line">    MessageService-&gt;&gt;WSServer: 发送消息(接收者ID, 消息内容, 展示方式=仅通知)</span><br><span class="line">    WSServer-&gt;&gt;WSClient: 推送消息</span><br><span class="line">    WSClient-&gt;&gt;UI: 更新通知图标未读消息数(+1)</span><br><span class="line">    </span><br><span class="line">    alt 用户点击通知图标</span><br><span class="line">        UI-&gt;&gt;UI: 显示悬浮消息列表</span><br><span class="line">        Note over UI: 用户查看消息列表但未点击具体消息</span><br><span class="line">    else 用户点击具体消息</span><br><span class="line">        UI-&gt;&gt;WSClient: 发送查看消息请求</span><br><span class="line">        WSClient-&gt;&gt;WSServer: 发送已读信息</span><br><span class="line">        WSServer-&gt;&gt;MessageService: 更新消息状态为已读</span><br><span class="line">        </span><br><span class="line">        alt 消息需要审批</span><br><span class="line">            UI-&gt;&gt;UI: 显示审批操作界面</span><br><span class="line">            alt 用户点击审批</span><br><span class="line">                UI-&gt;&gt;WSClient: 发送审批信息</span><br><span class="line">                WSClient-&gt;&gt;WSServer: 转发审批信息</span><br><span class="line">                WSServer-&gt;&gt;MessageService: 更新消息审批状态为已同意</span><br><span class="line">            else 用户点击拒绝</span><br><span class="line">                UI-&gt;&gt;WSClient: 发送拒绝信息</span><br><span class="line">                WSClient-&gt;&gt;WSServer: 转发拒绝信息</span><br><span class="line">                WSServer-&gt;&gt;MessageService: 更新消息审批状态为已拒绝</span><br><span class="line">            end</span><br><span class="line">        end</span><br><span class="line">    end</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-2-离线消息处理流程"><a href="#2-2-离线消息处理流程" class="headerlink" title="2.2 离线消息处理流程"></a>2.2 离线消息处理流程</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">    participant User as 用户</span><br><span class="line">    participant UI as 用户界面</span><br><span class="line">    participant WSClient as WebSocket客户端</span><br><span class="line">    participant WSServer as WebSocket服务</span><br><span class="line">    participant MessageService as 消息服务</span><br><span class="line">    </span><br><span class="line">    Note over User,WSServer: WebSocket连接断开期间</span><br><span class="line">    Note over MessageService: 系统继续产生消息并存储</span><br><span class="line">    </span><br><span class="line">    User-&gt;&gt;UI: 用户登录系统</span><br><span class="line">    UI-&gt;&gt;WSClient: 初始化WebSocket连接</span><br><span class="line">    WSClient-&gt;&gt;WSServer: 建立连接并发送身份验证</span><br><span class="line">    WSServer-&gt;&gt;MessageService: 查询用户未读消息</span><br><span class="line">    MessageService-&gt;&gt;WSServer: 返回未读消息列表及显示方式</span><br><span class="line">    </span><br><span class="line">    loop 对每条紧急消息</span><br><span class="line">        WSServer-&gt;&gt;WSClient: 按原定显示方式推送消息</span><br><span class="line">        WSClient-&gt;&gt;UI: 显示消息(中断/不中断/通知)</span><br><span class="line">    end</span><br><span class="line">    </span><br><span class="line">    WSServer-&gt;&gt;WSClient: 发送未读消息统计</span><br><span class="line">    WSClient-&gt;&gt;UI: 更新通知图标显示未读数量</span><br><span class="line">    UI-&gt;&gt;User: 提示&quot;您有X条未读消息&quot;</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-3-注解处理机制"><a href="#2-3-注解处理机制" class="headerlink" title="2.3 注解处理机制"></a>2.3 注解处理机制</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">    class MessagePush &#123;</span><br><span class="line">        &lt;&lt;annotation&gt;&gt;</span><br><span class="line">        +MessageType type</span><br><span class="line">        +UrgencyLevel level</span><br><span class="line">        +boolean needApproval</span><br><span class="line">        +String targetLink</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    class MessagePushAspect &#123;</span><br><span class="line">        +void around(ProceedingJoinPoint joinPoint)</span><br><span class="line">        -void processMessagePush(MessagePush annotation, Object result)</span><br><span class="line">        -void sendMessage(MessageDTO message)</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    class MessageService &#123;</span><br><span class="line">        +void createMessage(MessageDTO message)</span><br><span class="line">        +void updateMessageStatus(Long messageId, MessageStatus status)</span><br><span class="line">        +List~MessageDTO~ getUnreadMessages(Long userId)</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    MessagePushAspect ..&gt; MessagePush : uses</span><br><span class="line">    MessagePushAspect --&gt; MessageService : calls</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-4-前端组件设计"><a href="#2-4-前端组件设计" class="headerlink" title="2.4 前端组件设计"></a>2.4 前端组件设计</h4><h5 id="2-4-1-组件关系图"><a href="#2-4-1-组件关系图" class="headerlink" title="2.4.1 组件关系图"></a>2.4.1 组件关系图</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">    App[应用主体] --&gt; NotificationModule[通知模块]</span><br><span class="line">    NotificationModule --&gt; NotificationIcon[通知图标]</span><br><span class="line">    NotificationModule --&gt; HoverPanel[悬浮面板]</span><br><span class="line">    NotificationModule --&gt; MessagePopups[消息弹窗]</span><br><span class="line">    NotificationModule --&gt; NotificationPage[通知页面]</span><br><span class="line">    </span><br><span class="line">    NotificationIcon --&gt; |点击| NotificationPage</span><br><span class="line">    NotificationIcon --&gt; |悬浮| HoverPanel</span><br><span class="line">    HoverPanel --&gt; |查看更多| NotificationPage</span><br><span class="line">    </span><br><span class="line">    MessagePopups --&gt; InterruptPopup[中断弹窗]</span><br><span class="line">    MessagePopups --&gt; NonInterruptPopup[不中断弹窗]</span><br><span class="line">    </span><br><span class="line">    NotificationPage --&gt; MessageTab[消息页签]</span><br><span class="line">    NotificationPage --&gt; AnnouncementTab[公告页签]</span><br><span class="line">    </span><br><span class="line">    MessageTab --&gt; |条目点击| MessageDetail[消息详情]</span><br><span class="line">    AnnouncementTab --&gt; |条目点击| AnnouncementDetail[公告详情]</span><br><span class="line">    </span><br><span class="line">    MessageDetail --&gt; ApprovalTemplate[审批模板]</span><br><span class="line">    ApprovalTemplate --&gt; ApproveButton[审批按钮]</span><br><span class="line">    ApprovalTemplate --&gt; RejectButton[拒绝按钮]</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-技术实现细节"><a href="#3-技术实现细节" class="headerlink" title="3. 技术实现细节"></a>3. 技术实现细节</h3><h4 id="3-1-WebSocket服务实现"><a href="#3-1-WebSocket服务实现" class="headerlink" title="3.1 WebSocket服务实现"></a>3.1 WebSocket服务实现</h4><p>后端将实现基于STOMP协议的WebSocket服务，主要功能包括：</p>
+<ul>
+<li>用户连接管理（连接建立、断开处理）</li>
+<li>消息推送（根据消息类型和紧急程度选择推送方式）</li>
+<li>消息状态更新（已读、未读、已审批等）</li>
+</ul>
+<h4 id="3-2-消息注解实现"><a href="#3-2-消息注解实现" class="headerlink" title="3.2 消息注解实现"></a>3.2 消息注解实现</h4><p>在gv-common模块中实现<code>@MessagePush</code>注解：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Target(ElementType.METHOD)</span></span><br><span class="line"><span class="meta">@Retention(RetentionPolicy.RUNTIME)</span></span><br><span class="line"><span class="meta">@Documented</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> MessagePush &#123;</span><br><span class="line">    MessageType <span class="title function_">type</span><span class="params">()</span> <span class="keyword">default</span> MessageType.PERSONAL;  <span class="comment">// 消息类型</span></span><br><span class="line">    UrgencyLevel <span class="title function_">level</span><span class="params">()</span> <span class="keyword">default</span> UrgencyLevel.LOW;    <span class="comment">// 紧急程度</span></span><br><span class="line">    <span class="type">boolean</span> <span class="title function_">needApproval</span><span class="params">()</span> <span class="keyword">default</span> <span class="literal">false</span>;             <span class="comment">// 是否需要审批</span></span><br><span class="line">    String <span class="title function_">targetLink</span><span class="params">()</span> <span class="keyword">default</span> <span class="string">&quot;&quot;</span>;                   <span class="comment">// 跳转链接</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>通过切面编程（AOP）实现注解处理，在被注解的方法执行后自动触发消息推送。</p>
+<h4 id="3-3-前端消息处理"><a href="#3-3-前端消息处理" class="headerlink" title="3.3 前端消息处理"></a>3.3 前端消息处理</h4><p>前端将实现WebSocket客户端连接和消息处理逻辑：</p>
+<ul>
+<li>建立STOMP客户端连接</li>
+<li>订阅个人消息主题</li>
+<li>根据消息类型和紧急程度展示不同样式的通知</li>
+<li>处理用户交互（确认、审批等）</li>
+</ul>
+<h4 id="3-4-离线消息处理策略"><a href="#3-4-离线消息处理策略" class="headerlink" title="3.4 离线消息处理策略"></a>3.4 离线消息处理策略</h4><p>当WebSocket连接断开时：</p>
+<ul>
+<li>后端继续记录为用户生成的消息</li>
+<li>标记消息为”未推送”状态</li>
+<li>用户重新连接时，查询未推送消息并按原定方式展示</li>
+<li>提供未读消息数量统计</li>
+</ul>
+<h3 id="4-数据库表设计"><a href="#4-数据库表设计" class="headerlink" title="4. 数据库表设计"></a>4. 数据库表设计</h3><h4 id="4-1-消息表扩展设计"><a href="#4-1-消息表扩展设计" class="headerlink" title="4.1 消息表扩展设计"></a>4.1 消息表扩展设计</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE TABLE</span> `sys_message` (</span><br><span class="line">  `id` <span class="type">bigint</span>(<span class="number">20</span>) <span class="keyword">NOT NULL</span> AUTO_INCREMENT COMMENT <span class="string">&#x27;主键&#x27;</span>,</span><br><span class="line">  `title` <span class="type">varchar</span>(<span class="number">100</span>) <span class="keyword">NOT NULL</span> COMMENT <span class="string">&#x27;消息标题&#x27;</span>,</span><br><span class="line">  `content` text <span class="keyword">NOT NULL</span> COMMENT <span class="string">&#x27;消息内容&#x27;</span>,</span><br><span class="line">  `type` tinyint(<span class="number">4</span>) <span class="keyword">NOT NULL</span> COMMENT <span class="string">&#x27;消息类型：1-公告，2-个人消息&#x27;</span>,</span><br><span class="line">  `urgency_level` tinyint(<span class="number">4</span>) <span class="keyword">NOT NULL</span> COMMENT <span class="string">&#x27;紧急程度：1-高(中断)，2-中(不中断)，3-低(通知)&#x27;</span>,</span><br><span class="line">  `target_link` <span class="type">varchar</span>(<span class="number">255</span>) <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;目标页面链接&#x27;</span>,</span><br><span class="line">  `status` tinyint(<span class="number">4</span>) <span class="keyword">NOT NULL</span> <span class="keyword">DEFAULT</span> <span class="string">&#x27;0&#x27;</span> COMMENT <span class="string">&#x27;状态：0-未读，1-已读&#x27;</span>,</span><br><span class="line">  `receiver_id` <span class="type">bigint</span>(<span class="number">20</span>) <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;接收者ID（个人消息专用）&#x27;</span>,</span><br><span class="line">  `need_approval` tinyint(<span class="number">1</span>) <span class="keyword">NOT NULL</span> <span class="keyword">DEFAULT</span> <span class="string">&#x27;0&#x27;</span> COMMENT <span class="string">&#x27;是否需要审批：0-不需要，1-需要&#x27;</span>,</span><br><span class="line">  `approval_status` tinyint(<span class="number">4</span>) <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;审批状态：0-未审批，1-已同意，2-已拒绝&#x27;</span>,</span><br><span class="line">  `create_time` datetime <span class="keyword">NOT NULL</span> COMMENT <span class="string">&#x27;创建时间&#x27;</span>,</span><br><span class="line">  `read_time` datetime <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;阅读时间&#x27;</span>,</span><br><span class="line">  `creator_id` <span class="type">bigint</span>(<span class="number">20</span>) <span class="keyword">NOT NULL</span> COMMENT <span class="string">&#x27;创建者ID&#x27;</span>,</span><br><span class="line">  `is_pushed` tinyint(<span class="number">1</span>) <span class="keyword">NOT NULL</span> <span class="keyword">DEFAULT</span> <span class="string">&#x27;0&#x27;</span> COMMENT <span class="string">&#x27;是否已推送：0-未推送，1-已推送&#x27;</span>,</span><br><span class="line">  <span class="keyword">PRIMARY KEY</span> (`id`),</span><br><span class="line">  KEY `idx_receiver_id` (`receiver_id`),</span><br><span class="line">  KEY `idx_type` (`type`),</span><br><span class="line">  KEY `idx_status` (`status`)</span><br><span class="line">) ENGINE<span class="operator">=</span>InnoDB <span class="keyword">DEFAULT</span> CHARSET<span class="operator">=</span>utf8mb4 COMMENT<span class="operator">=</span><span class="string">&#x27;系统消息表&#x27;</span>;</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-接口设计"><a href="#5-接口设计" class="headerlink" title="5. 接口设计"></a>5. 接口设计</h3><h4 id="5-1-后端API接口"><a href="#5-1-后端API接口" class="headerlink" title="5.1 后端API接口"></a>5.1 后端API接口</h4><table>
+<thead>
+<tr>
+<th>接口路径</th>
+<th>方法</th>
+<th>功能描述</th>
+<th>参数</th>
+<th>返回值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&#x2F;api&#x2F;messages</td>
+<td>GET</td>
+<td>获取消息列表</td>
+<td>分页参数，类型筛选</td>
+<td>消息列表</td>
+</tr>
+<tr>
+<td>&#x2F;api&#x2F;messages&#x2F;{id}</td>
+<td>GET</td>
+<td>获取消息详情</td>
+<td>消息ID</td>
+<td>消息详情</td>
+</tr>
+<tr>
+<td>&#x2F;api&#x2F;messages&#x2F;{id}&#x2F;read</td>
+<td>PUT</td>
+<td>标记消息已读</td>
+<td>消息ID</td>
+<td>操作结果</td>
+</tr>
+<tr>
+<td>&#x2F;api&#x2F;messages&#x2F;{id}&#x2F;approve</td>
+<td>PUT</td>
+<td>审批同意消息</td>
+<td>消息ID</td>
+<td>操作结果</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&#x2F;api&#x2F;announcements</td>
+<td>GET</td>
+<td>获取公告列表</td>
+<td>分页参数</td>
+<td>公告列表</td>
+</tr>
+<tr>
+<td>&#x2F;api&#x2F;messages&#x2F;unread&#x2F;count</td>
+<td>GET</td>
+<td>获取未读消息数</td>
+<td>无</td>
+<td>未读数量</td>
+</tr>
+</tbody></table>
+<h4 id="5-2-WebSocket主题"><a href="#5-2-WebSocket主题" class="headerlink" title="5.2 WebSocket主题"></a>5.2 WebSocket主题</h4><table>
+<thead>
+<tr>
+<th>主题</th>
+<th>方向</th>
+<th>功能描述</th>
+<th>数据格式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&#x2F;user&#x2F;{userId}&#x2F;queue&#x2F;messages</td>
+<td>服务端→客户端</td>
+<td>推送个人消息</td>
+<td>消息对象</td>
+</tr>
+<tr>
+<td>&#x2F;topic&#x2F;announcements</td>
+<td>服务端→客户端</td>
+<td>推送公告</td>
+<td>公告对象</td>
+</tr>
+<tr>
+<td>&#x2F;app&#x2F;message.read</td>
+<td>客户端→服务端</td>
+<td>标记消息已读</td>
+<td>消息ID</td>
+</tr>
+<tr>
+<td>&#x2F;app&#x2F;message.approve</td>
+<td>客户端→服务端</td>
+<td>审批同意消息</td>
+<td>消息ID</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="第三部分：预期效果"><a href="#第三部分：预期效果" class="headerlink" title="第三部分：预期效果"></a>第三部分：预期效果</h2><h3 id="1-预期效果"><a href="#1-预期效果" class="headerlink" title="1. 预期效果"></a>1. 预期效果</h3><p>通过本次升级改造，系统将具备完善的公告和消息通知功能，包括：</p>
+<ul>
+<li>区分公告与个人消息的展示</li>
+<li>实现三种消息推送方式（中断弹窗、不中断弹窗、仅通知计数）</li>
+<li>实时通知与离线消息处理</li>
+<li>审批流程</li>
+</ul>
+
+    </div>
+
+    <div class="container post-prev-next">
+        <a class="next"></a>
+        
+        <a href="/sitan/2025/05/22/Self-learning-outside-of-work/" class="prev">
+            <div>
+                <div class="text">
+                    <p class="label">Previous</p>
+                    <h3 class="title">Self-learning outside of work</>
+                </div>
+            </div>
+        </a>
+        
+    </div>
+
+    
+        
+        
+    
+</article>
+
+        <footer>
+    <div class="inner">
+        <div class="links">
+            
+            <div class="group">
+                <h2 class="title">Blog</h2>
+                
+                <a href="/sitan" class="item">Blog</a>
+                
+                <a href="/sitan/archives" class="item">Archives</a>
+                
+                <a href="/sitan/tags" class="item">Tags</a>
+                
+                <a href="/sitan/categories" class="item">Categories</a>
+                
+                <a href="/sitan/about" class="item">About</a>
+                
+            </div>
+            
+            <div class="group">
+                <h2 class="title">Me</h2>
+                
+                <a target="_blank" rel="noopener" href="https://github.com/6wensitan" class="item">GitHub</a>
+                
+                <a href="mailto:chunhengpeng@outlook.com" class="item">Email</a>
+                
+            </div>
+            
+        </div>
+        <span>&copy; 2025 Sitan Park<br>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> </span>
+        
+        
+            <br>
+            <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle">
+                <label>
+                    <input type="radio" value="light">
+                    <span>Light</span>
+                </label>
+                <label>
+                    <input type="radio" value="dark">
+                    <span>Dark</span>
+                </label>
+                <label>
+                    <input type="radio" value="auto">
+                    <span>Auto</span>
+                </label>
+            </div>
+        
+    </div>
+</footer>
+
+
+        
+<script src="/sitan/js/main.js"></script>
+
+        
+        
+        
+
+        
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            window.addEventListener('load', () => {
+                ScrollReveal({ delay: 250, reset: true, easing: 'cubic-bezier(0, 0, 0, 1)' })
+                ScrollReveal().reveal('.post-list-item .cover-img img')
+                ScrollReveal().reveal('.post-list-item, .card, .content p img, .content .block-large img', { distance: '60px', origin: 'bottom', duration: 800 })
+            })
+        </script>
+        
+    </body>
+</html>

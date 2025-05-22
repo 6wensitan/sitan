@@ -1,248 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>hello-sitan</title>
-    <url>/sitan/2025/02/25/hello-sitan/</url>
-    <content><![CDATA[<h1 id="欢迎来到我的Blog"><a href="#欢迎来到我的Blog" class="headerlink" title="欢迎来到我的Blog"></a>欢迎来到我的Blog</h1><blockquote>
-<p>现在是重新构建的blog ，请保持写作的热情，GO！！！</p>
-</blockquote>
-<p>送自己的一段话：</p>
-<p>​		工作只是生活的一部分，请保持对生活的欢喜，继续坚持内心的想法，多多肯定自己 ✌️。</p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250307145157653.png" alt="image-20250307145157653"></p>
-<h3 id="git-推送"><a href="#git-推送" class="headerlink" title="git 推送"></a>git 推送</h3><p>检查 .git 状态</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">git status</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>初始化仓库</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">cd .deploy_git</span><br><span class="line">git init</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>清理重新部署</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>Start Page</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>冲浪板</title>
-    <url>/sitan/2025/03/17/%E5%86%B2%E6%B5%AA%E6%9D%BF/</url>
-    <content><![CDATA[<h1 id="冲浪板"><a href="#冲浪板" class="headerlink" title="冲浪板"></a>冲浪板</h1><blockquote>
-<p>“挺有意思的，停下来👣看看吧！”</p>
-<p>“说不定有你喜欢呢~~~”</p>
-</blockquote>
-<h2 id="第一篇：iFixit"><a href="#第一篇：iFixit" class="headerlink" title="第一篇：iFixit"></a>第一篇：iFixit</h2><p>iFixit：“修理手册”</p>
-<p>​		iFixit是一家设于美国加州圣路易斯-奥比斯波的公司，创立于2003年。该公司设立的同名网站以类似wiki网站的方式刊登电子产品等的DIY维修、拆解指南，并接受读者投稿 。拆解指南会根据拆解难易度以分数评定。</p>
-<p>About Us: “The Future Is Repairable” </p>
-<p>Wiki: <a href="https://en.wikipedia.org/wiki/IFixit">iFixit - Wikipedia</a></p>
-<p>Web: <a href="https://www.ifixit.com/">https://www.ifixit.com/</a></p>
-<p>Youtube: <a href="https://www.youtube.com/@iFixitYourself">10 Years of iFixit Tools</a></p>
-<h2 id="第二篇：SkylineWebcams"><a href="#第二篇：SkylineWebcams" class="headerlink" title="第二篇：SkylineWebcams"></a>第二篇：SkylineWebcams</h2><p>SkylineWebcams ：“实况”</p>
-<p>“我们对 SkylineWebcams 项目的愿景是创建一个全球性的毛细网络摄像头网络，以促进旅游业、地方、人民和不同文化的发展，同时也希望这能激励更多的人尊重我们的地球，让它变得更加美好。”</p>
-<p>Web：<a href="https://www.skylinewebcams.com/">▶️ Live HD Cams from the World! - SkylineWebcams</a></p>
-<p>Youtube：<a href="https://www.youtube.com/channel/UC2WMV4vCYurHdHPd9pCqYSg">(1) SkylineWebcams - YouTube</a></p>
-<h2 id="第三篇：沉浸式翻译"><a href="#第三篇：沉浸式翻译" class="headerlink" title="第三篇：沉浸式翻译"></a>第三篇：沉浸式翻译</h2><p>沉浸式翻译：“翻译官”</p>
-<p>「沉浸式翻译」<strong>是一款免费的，好用的，没有废话的，革命性的，饱受赞誉的，AI 驱动的双语网页翻译扩展，帮助你有效地打破信息差</strong>。 主要特性： - 沉浸式阅读外文网站- 通过智能识别网页主内容区域并进行双语对照翻译，沉浸式翻译提供了全新的外文阅读体验，因此得名“沉浸式翻译”。</p>
-<p>Web：<a href="https://app.immersivetranslate.com/">沉浸式翻译 - 文档双语翻译：一键翻译 PDF，ePub 电子书，字幕文件，txt 文件</a></p>
-<p>Youtube：<a href="https://www.youtube.com/@ImmersiveTranslate">亮点功能介绍｜想学外语和不想学外语的人都会喜欢的工具—沉浸式翻译</a></p>
-<h2 id="第四篇：Hacker-News"><a href="#第四篇：Hacker-News" class="headerlink" title="第四篇：Hacker News"></a>第四篇：Hacker News</h2><p>Hacker News (HN) ：“新闻集”</p>
-<p><strong>Hacker News</strong> （ <strong>HN</strong> ）是一家专注于计算机科学和创业的社交新闻网站。它由投资基金和初创企业孵化器<a href="https://en.wikipedia.org/wiki/Y_Combinator">Y Combinator</a>运营。一般来说，可以提交的内容被定义为“任何能满足一个人的求知欲的东西”。</p>
-<p><a href="https://news.ycombinator.com/">Hacker News (HN)</a> 是一个<strong>新闻聚合器</strong>，用户可以在其中查找和讨论最新消息，并提交任何满足一个人的求知欲的内容。YC 校友还在 HN 上发布工程、产品和设计职位。</p>
-<p>“Hacker News” 中的“hacker”一词取其原意需要引证 ，指那些喜欢摆弄技术的人组成的黑客文化。</p>
-<p>Web：<a href="https://news.ycombinator.com/newest">新链接 | 黑客新闻 — New Links | Hacker News</a></p>
-<h2 id="第五篇：Wise"><a href="#第五篇：Wise" class="headerlink" title="第五篇：Wise"></a>第五篇：Wise</h2><p>汇率计算器：“随时随地，汇无国界”</p>
-<p>​		Wise是一种以尽可能简单、尽可能少的价格将您的资金转移到世界各地的方式。我们正在为跨境生活、旅行或经商的任何人建立一个更好、更便宜、更公平的系统。</p>
-<p>Web：<a href="https://wise.com/">Wise：国际账户 | 汇无国界</a></p>
-<p>汇率换算：<a href="https://wise.com/zh-cn/currency-converter/">汇率换算器 | 外汇汇率 | Wise</a></p>
-<h2 id="第六篇：深言达意"><a href="#第六篇：深言达意" class="headerlink" title="第六篇：深言达意"></a>第六篇：深言达意</h2><p>深言达意：“表达”</p>
-<p>​		【深言达意】<strong>是一款可根据模糊描述，找词找句的智能写作工具</strong>。 产品基于强大的语言理解和算法能力，助你在深邃词海中快速找到更恰切的表达，妙笔生花，灵感迸发。</p>
-<p>Web：<a href="https://www.shenyandayi.com/">深言达意 – 找词找句</a></p>
-<h2 id="第七篇：uptodown"><a href="#第七篇：uptodown" class="headerlink" title="第七篇：uptodown"></a>第七篇：uptodown</h2><p>uptodown：“下载器”</p>
-<p>“Uptodown是一家专门从事Android 的多平台应用商店。我们的目标是免费且不受限制地访问广泛的应用程序目录，从任何浏览器以及通过我们的官方本机应用程序访问的法律分销平台。”</p>
-<p>Web：<a href="https://en.uptodown.com/windows">App Downloads for Windows - Download, Discover, Share on Uptodown</a></p>
-<p>Wiki：<a href="https://es.wikipedia.org/wiki/Uptodown">Uptodown - Wikipedia, la enciclopedia libre</a></p>
-<h2 id="第八篇：VPN"><a href="#第八篇：VPN" class="headerlink" title="第八篇：VPN"></a>第八篇：VPN</h2><p>VPN：“科学”</p>
-<p>“VPN 代表**“虚拟专用网络”<strong>，描述了在使用公共网络时建立受保护网络连接的机会。VPN 会加密您的互联网流量并伪装您的在线身份。这使得第三方更难跟踪您的在线活动并窃取数据。加密是</strong>实时**进行的。”</p>
-<p>​																																	–来源文章：<a href="https://www.kaspersky.com/resource-center/definitions/what-is-a-vpn">What is VPN? How It Works, Types of VPN</a></p>
-<p>Clash：<a href="https://docs.gtk.pw/">Clash for Windows | Clash for Windows 代理工具使用说明</a></p>
-<h2 id="第九篇：随机八股文"><a href="#第九篇：随机八股文" class="headerlink" title="第九篇：随机八股文"></a>第九篇：随机八股文</h2><p><strong>随机八股文：“生成器”</strong></p>
-<p>🚀 一款 AI 驱动技术八股文面试平台，助你轻松提升编码技能与技术实力</p>
-<p>Web：<a href="https://devinterview.org/">随机八股文生成器</a></p>
-<p>GitHub：<a href="https://github.com/peanut996/random-interview-platform">GitHub - peanut996&#x2F;random-interview-platform</a></p>
-<h2 id="第十篇：V2EX"><a href="#第十篇：V2EX" class="headerlink" title="第十篇：V2EX"></a>第十篇：V2EX</h2><p><strong>V2EX：“论坛”</strong></p>
-<p>V2EX（way to explore的缩写）是一个网络论坛，官方自称为一个“由设计师、程序员及有创意的人参与的社区”。它的建站目的是基于兴趣，将用户创建的内容进行组织并分类成不同“节点”（类似Reddit的分类），网站以内容的活跃程度决定这些内容在网站首页的排列顺序。</p>
-<p>Web：<a href="https://www.v2ex.com/">V2EX</a></p>
-<p>Wiki：<a href="https://zh.wikipedia.org/wiki/V2EX">V2EX - 维基百科，自由的百科全书</a></p>
-<p>GitHub：<a href="https://github.com/v2ex">V2EX · GitHub</a></p>
-<h2 id="第十一篇：代码变量命名"><a href="#第十一篇：代码变量命名" class="headerlink" title="第十一篇：代码变量命名"></a>第十一篇：代码变量命名</h2><p><strong>代码变量命名：“CHTML”</strong></p>
-<p>chtml即code helper tag mark law 代码辅助标记方法，是一款简洁好用的在线的代码命名工具、变量命名工具、变量命名规则库，使用它可以让您轻松摆脱翻译软件的困扰，快速选择合适的变量名称用于开发工作中。</p>
-<p>Web：<a href="https://www.chtml.cn/">CHTML代码变量命名工具_变量命名规则库</a></p>
-<p>uTools：alt+空格，chtml，输入变量。</p>
-<h2 id="第十二篇：MIN2K"><a href="#第十二篇：MIN2K" class="headerlink" title="第十二篇：MIN2K"></a>第十二篇：MIN2K</h2><p><strong>min2k：</strong></p>
-<p>min2k专注于办公效率工具开发，可以利用mermaid和markdown去生成对应的流程图、关系图、思维导图、时序图等。</p>
-<p>Web：<a href="https://www.min2k.com/">MIN2K官方网站</a></p>
-<p>MinDoc帮助手册：<a href="https://www.iminho.me/wiki/docs/mindoc/mindoc-summary.md">MinDoc简介 - Powered by MinDoc</a></p>
-<h2 id="第十三篇：arXiv"><a href="#第十三篇：arXiv" class="headerlink" title="第十三篇：arXiv"></a>第十三篇：arXiv</h2><p><strong>arXiv ：“论文集”</strong></p>
-<p>arXiv （发音为“ archive ”——其中的 X 代表希腊字母 chi ⟨χ⟩）是一个开放存取的电子预印本和后印本（称为电子印本）资源库，这些资源经审核后批准发布，但未经同行评审。它包括数学、物理学、天文学、电子工程、计算机科学、定量生物学、统计学、数理金融和经济学等领域的科学论文，可在线访问。在数学和物理学的许多领域，几乎所有科学论文在发表于同行评审期刊之前都会自行存档在 arXiv 资源库中。</p>
-<p>Web：<a href="https://arxiv.org/search/">Search | arXiv e-print repository</a></p>
-<p>Wiki：<a href="https://en.wikipedia.org/wiki/ArXiv">arXiv - 维基百科 — arXiv - Wikipedia</a></p>
-<h2 id="未完待续…"><a href="#未完待续…" class="headerlink" title="未完待续…"></a>未完待续…</h2>]]></content>
-      <tags>
-        <tag>tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>申请游玩</title>
-    <url>/sitan/2025/03/11/%E9%9F%A9%E5%9B%BD%E7%AD%BE%E8%AF%81%E7%94%B3%E8%AF%B7/</url>
-    <content><![CDATA[<h1 id="游玩推荐、签证办理指南"><a href="#游玩推荐、签证办理指南" class="headerlink" title="游玩推荐、签证办理指南"></a>游玩推荐、签证办理指南</h1><p>下面是有多国的签证办理指南：目前韩国</p>
-<h2 id="韩国"><a href="#韩国" class="headerlink" title="韩国"></a>韩国</h2><blockquote>
-<p>我们是这里以广州为例！ </p>
-</blockquote>
-<p>我们可以选择自己办理或者是代办</p>
-<p>下面是代办的处理指南：<a href="https://www.visaforkorea-gz.com/">KVACinGZ</a></p>
-<p>自己办理的指南（针对于旅游签）：<a href="https://www.hanchao.com/contents/basic_info_detail.html?id=10187">韩国自由行签证攻略_韩国旅游基本信息_韩国旅游网-韩巢</a></p>
-<p>签证的常见问题回答指南：<a href="https://www.visaforkorea-gz.com/customercenter/faq/list/">KVACinGZ</a></p>
-<p>如果你想找机构帮忙跟进处理（一步到位，有对应价格要求）： <a href="https://m.ctrip.com/visa/southkorea100042/p1672217.html">韩国个人旅游签证5年多次广州送签·常规办理·适用于可提供资产相关材料的申请人·可选领馆加急3工审核服务-韩国签证-携程</a></p>
-<p>也可以采用“穗好办app”处理： <a href="https://www.gz.gov.cn/zt/shb/content/post_9423165.html">“穗好办”签证服务，助你丝滑出境，说走就走！ - 广州市人民政府门户网站</a></p>
-<h2 id="中国"><a href="#中国" class="headerlink" title="中国"></a>中国</h2><h3 id="第一站：广东顺德市"><a href="#第一站：广东顺德市" class="headerlink" title="第一站：广东顺德市"></a>第一站：广东顺德市</h3><blockquote>
-<p>推荐路线：清晖园-》华盖山栈道-》 金榜上街-》顺峰山公园 OR 渔人码头</p>
-</blockquote>
-<p>GO！GO！GO！（9:30-10点出发较为合适）</p>
-<h4 id="清晖园"><a href="#清晖园" class="headerlink" title="清晖园"></a>清晖园</h4><p>简介：庭园利用碧水、绿树，古墙、漏窗、石山、小桥、曲廊等与亭台楼阁交互融合，集中国古代建筑、园林、雕刻、诗书、灰雕等艺术于一身，是顺德必去的景点之一。（游玩时间：1.5小时；门票：15元）</p>
-<p>**拍照📷：<strong>澄漪亭</strong>、<strong>船厅水景</strong>，处处皆风景，出片率极高</p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325221526880.png" alt="image-20250325221526880"></p>
-<p>提示：早餐清晖园附近推荐：韦记牛杂汤** ）</p>
-<h4 id="华盖路"><a href="#华盖路" class="headerlink" title="华盖路"></a>华盖路</h4><p>简介：从清晖园出来，步行几分钟便可到达华盖路。华盖路是顺德的<strong>老商业街</strong>，充满了浓厚的烟火气息，岭南骑楼建筑与现代店铺交织，别有一番风味。</p>
-<p>**推荐美食🥣：**民信双皮奶、</p>
-<p><strong>双皮奶文化：</strong> 三楼的双皮奶博物馆，可以了解双皮奶的制作历史和文化</p>
-<p>推荐饮品：李小马水牛奶  <strong>东方美人云顶</strong>，奇兰乌龙茶茶底＋奶油奶盖，茶味很浓，加上水牛奶却细腻香滑不涩口</p>
-<h3 id="华盖路栈道"><a href="#华盖路栈道" class="headerlink" title="华盖路栈道"></a>华盖路栈道</h3><p>简介：沿着华盖路一直走，便能找到华盖路栈道。你可以俯瞰整个华盖路的热闹景象，还能欣赏到远处的山峦和城市风光。一边漫步，一边感受着微风拂面，惬意无比。</p>
-<p><strong>提示：这个山很小很小的走上去刚刚好，就当是消食了♪٩(´ω&#96;)و♪</strong></p>
-<h3 id="金榜上街"><a href="#金榜上街" class="headerlink" title="金榜上街"></a>金榜上街</h3><p>简介：从华盖路栈道下来，顺着路牌继续前行就可以到达金榜上街。这里是一条充满岭南特色的<strong>美食老街</strong>，小巷烟火气浓厚，有很多很多美食小店。</p>
-<p><strong>推荐店铺：</strong></p>
-<p><strong>浪鳗鱼香</strong></p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215824098.png" alt="image-20250325215824098"></p>
-<p><strong>凤旨捞®凤城鱼皮</strong></p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215849654.png" alt="image-20250325215849654"></p>
-<p><strong>梯底牛乳铺</strong></p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215800964.png" alt="image-20250325215800964"></p>
-<p><strong>金榜欢记牛乳</strong> </p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215738016.png" alt="image-20250325215738016"></p>
-<p><strong>阿嫲私房名点</strong></p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215927312.png" alt="image-20250325215927312"></p>
-<h3 id="顺峰山公园（二选一）"><a href="#顺峰山公园（二选一）" class="headerlink" title="顺峰山公园（二选一）"></a>顺峰山公园（二选一）</h3><p>简介：从金榜上街出来，乘坐公交车或打车前往顺峰山公园。顺峰山公园是一个集自然风光、人文景观和休闲娱乐为一体的大型公园。<strong>强烈建议</strong>扫一辆共享单车，绕着公园骑行，感受大自然的美好。</p>
-<p><strong>推荐游览路线</strong></p>
-<ul>
-<li>顺峰山公园北门➡️公园石牌坊➡️粤剧大观园➡️迎春亭➡️红廊➡️青龙阁➡️古趣亭➡️迎旭➡️公园绿道➡️Dehaus Coffee➡️汀芷园➡️青云牌坊➡️北门</li>
-<li>顺峰山公园南门➡️美术馆➡️湖边教堂➡️莫奈桥➡️大柠檬➡️莫比乌斯楼梯➡️大滑梯→大草坪➡️汀芷园➡️粤剧大观园➡️石牌坊➡️️北门</li>
-<li>想拍<strong>古风园林</strong>的从【北门进】，想拍<strong>湖景楼梯和大柠檬</strong>的从【南门进】</li>
-</ul>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325221424432.png" alt="image-20250325221424432"></p>
-<h3 id="渔人码头（二选一）"><a href="#渔人码头（二选一）" class="headerlink" title="渔人码头（二选一）"></a>渔人码头（二选一）</h3><p>简介：强烈建议夕阳时分前赶到渔人码头，这样，你就可以欣赏到美丽的日落景色</p>
-<p><strong>推荐</strong>：日落观赏、涂鸦墙、新马路夜市</p>
-<p>涂鸦墙： </p>
-<ul>
-<li>洛克网咖联盟（渔人码头店）背面：王鹤棣、吴世勋、坂本龙一</li>
-<li>7-11便利店（渔人码头店）正对着右边：Jennie、王嘉尔</li>
-<li>喜越Nice pho(渔人码头店)门口：张元英</li>
-<li>森X枫FALLING(容桂店)对面：周杰伦</li>
-</ul>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325221607120.png" alt="image-20250325221607120"></p>
-<p>如果时间允许，<strong>渔人码头</strong>的日落与夜市也别错过哦！</p>
-<h3 id="旅行小提示哦"><a href="#旅行小提示哦" class="headerlink" title="旅行小提示哦"></a>旅行小提示哦</h3><ul>
-<li>穿着舒适的鞋子，适合步行。</li>
-<li>早上出发可以避开人流高峰，下午轻松游玩。</li>
-<li>注意就是晚餐，一定要预定！预定！预定！</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024年总总结</title>
-    <url>/sitan/2025/02/26/2024%E5%B9%B4%E6%80%BB%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<blockquote>
-<p>总结，久违了~ ~ ~</p>
-</blockquote>
-<h3 id="2024"><a href="#2024" class="headerlink" title="2024"></a>2024</h3><p>2024年，是我的毕业季，也是我的社畜开始。</p>
-<p>故事线不知从何说起，时间线呢？还是事情好坏呢？一年四季？</p>
-<p>实习结束，毕业设计，毕业论文，旅游散心，赶上工作末班车，初识管培生，遇良师益友，也有“紧急避险人”？</p>
-<p>水瓶座，是一个思想自由，带些神经质的我。有时候都不知道自己在干嘛？换说法就是忙忙碌碌却又一无所有。</p>
-<p>清明时节雨纷纷，迂回不见自乡人。四爷应顺喜天府，默不作声泪满痕。</p>
-<h3 id="夏霞：Atarayo"><a href="#夏霞：Atarayo" class="headerlink" title="夏霞：Atarayo"></a>夏霞：Atarayo</h3><p>作者：说到“Atarayo的夏曲”，当属《夏霞》。一直带着这样的印象迎来了今年的夏天。一首全新的夏曲成为了我们的伙伴。</p>
-<p>关于“追逐夏天”这个表达，其实本身便蕴含了“夏日终有尽头”，以及“惋惜之情”的含义。  换言之，这首歌表达的是对终将完结的夏天的惋惜。  而特意在开头加上“再度”一词，赋予标题以“夏天的几度离去，便带来几度惋惜”的意义。</p>
-<p>明明早已结束的那个夏天，却几度在记忆中浮现。每当这个季节来临，总忍不住将新的夏日终结与往昔的那一天重叠一处，惋惜不已。</p>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>申请游玩</title>
-    <url>/sitan/2025/03/11/%E7%94%B3%E8%AF%B7%E6%B8%B8%E7%8E%A9/</url>
-    <content><![CDATA[<h1 id="游玩推荐、签证办理指南"><a href="#游玩推荐、签证办理指南" class="headerlink" title="游玩推荐、签证办理指南"></a>游玩推荐、签证办理指南</h1><p>下面是有多国的签证办理指南：目前韩国</p>
-<h2 id="韩国"><a href="#韩国" class="headerlink" title="韩国"></a>韩国</h2><blockquote>
-<p>我们是这里以广州为例！ </p>
-</blockquote>
-<p>我们可以选择自己办理或者是代办</p>
-<p>下面是代办的处理指南：<a href="https://www.visaforkorea-gz.com/">KVACinGZ</a></p>
-<p>自己办理的指南（针对于旅游签）：<a href="https://www.hanchao.com/contents/basic_info_detail.html?id=10187">韩国自由行签证攻略_韩国旅游基本信息_韩国旅游网-韩巢</a></p>
-<p>签证的常见问题回答指南：<a href="https://www.visaforkorea-gz.com/customercenter/faq/list/">KVACinGZ</a></p>
-<p>如果你想找机构帮忙跟进处理（一步到位，有对应价格要求）： <a href="https://m.ctrip.com/visa/southkorea100042/p1672217.html">韩国个人旅游签证5年多次广州送签·常规办理·适用于可提供资产相关材料的申请人·可选领馆加急3工审核服务-韩国签证-携程</a></p>
-<p>也可以采用“穗好办app”处理： <a href="https://www.gz.gov.cn/zt/shb/content/post_9423165.html">“穗好办”签证服务，助你丝滑出境，说走就走！ - 广州市人民政府门户网站</a></p>
-<h2 id="中国"><a href="#中国" class="headerlink" title="中国"></a>中国</h2><h3 id="第一站：广东顺德市"><a href="#第一站：广东顺德市" class="headerlink" title="第一站：广东顺德市"></a>第一站：广东顺德市</h3><blockquote>
-<p>推荐路线：清晖园-》华盖山栈道-》 金榜上街-》顺峰山公园 OR 渔人码头</p>
-</blockquote>
-<p>GO！GO！GO！（9:30-10点出发较为合适）</p>
-<h4 id="清晖园"><a href="#清晖园" class="headerlink" title="清晖园"></a>清晖园</h4><p>简介：庭园利用碧水、绿树，古墙、漏窗、石山、小桥、曲廊等与亭台楼阁交互融合，集中国古代建筑、园林、雕刻、诗书、灰雕等艺术于一身，是顺德必去的景点之一。（游玩时间：1.5小时；门票：15元）</p>
-<p>**拍照📷：<strong>澄漪亭</strong>、<strong>船厅水景</strong>，处处皆风景，出片率极高</p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325221526880.png" alt="image-20250325221526880"></p>
-<p>提示：早餐清晖园附近推荐：韦记牛杂汤** ）</p>
-<h4 id="华盖路"><a href="#华盖路" class="headerlink" title="华盖路"></a>华盖路</h4><p>简介：从清晖园出来，步行几分钟便可到达华盖路。华盖路是顺德的<strong>老商业街</strong>，充满了浓厚的烟火气息，岭南骑楼建筑与现代店铺交织，别有一番风味。</p>
-<p>**推荐美食🥣：**民信双皮奶、</p>
-<p><strong>双皮奶文化：</strong> 三楼的双皮奶博物馆，可以了解双皮奶的制作历史和文化</p>
-<p>推荐饮品：李小马水牛奶  <strong>东方美人云顶</strong>，奇兰乌龙茶茶底＋奶油奶盖，茶味很浓，加上水牛奶却细腻香滑不涩口</p>
-<h3 id="华盖路栈道"><a href="#华盖路栈道" class="headerlink" title="华盖路栈道"></a>华盖路栈道</h3><p>简介：沿着华盖路一直走，便能找到华盖路栈道。你可以俯瞰整个华盖路的热闹景象，还能欣赏到远处的山峦和城市风光。一边漫步，一边感受着微风拂面，惬意无比。</p>
-<p><strong>提示：这个山很小很小的走上去刚刚好，就当是消食了♪٩(´ω&#96;)و♪</strong></p>
-<h3 id="金榜上街"><a href="#金榜上街" class="headerlink" title="金榜上街"></a>金榜上街</h3><p>简介：从华盖路栈道下来，顺着路牌继续前行就可以到达金榜上街。这里是一条充满岭南特色的<strong>美食老街</strong>，小巷烟火气浓厚，有很多很多美食小店。</p>
-<p><strong>推荐店铺：</strong></p>
-<p><strong>浪鳗鱼香</strong></p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215824098.png" alt="image-20250325215824098"></p>
-<p><strong>凤旨捞®凤城鱼皮</strong></p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215849654.png" alt="image-20250325215849654"></p>
-<p><strong>梯底牛乳铺</strong></p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215800964.png" alt="image-20250325215800964"></p>
-<p><strong>金榜欢记牛乳</strong> </p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215738016.png" alt="image-20250325215738016"></p>
-<p><strong>阿嫲私房名点</strong></p>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215927312.png" alt="image-20250325215927312"></p>
-<h3 id="顺峰山公园（二选一）"><a href="#顺峰山公园（二选一）" class="headerlink" title="顺峰山公园（二选一）"></a>顺峰山公园（二选一）</h3><p>简介：从金榜上街出来，乘坐公交车或打车前往顺峰山公园。顺峰山公园是一个集自然风光、人文景观和休闲娱乐为一体的大型公园。<strong>强烈建议</strong>扫一辆共享单车，绕着公园骑行，感受大自然的美好。</p>
-<p><strong>推荐游览路线</strong></p>
-<ul>
-<li>顺峰山公园北门➡️公园石牌坊➡️粤剧大观园➡️迎春亭➡️红廊➡️青龙阁➡️古趣亭➡️迎旭➡️公园绿道➡️Dehaus Coffee➡️汀芷园➡️青云牌坊➡️北门</li>
-<li>顺峰山公园南门➡️美术馆➡️湖边教堂➡️莫奈桥➡️大柠檬➡️莫比乌斯楼梯➡️大滑梯→大草坪➡️汀芷园➡️粤剧大观园➡️石牌坊➡️️北门</li>
-<li>想拍<strong>古风园林</strong>的从【北门进】，想拍<strong>湖景楼梯和大柠檬</strong>的从【南门进】</li>
-</ul>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325221424432.png" alt="image-20250325221424432"></p>
-<h3 id="渔人码头（二选一）"><a href="#渔人码头（二选一）" class="headerlink" title="渔人码头（二选一）"></a>渔人码头（二选一）</h3><p>简介：强烈建议夕阳时分前赶到渔人码头，这样，你就可以欣赏到美丽的日落景色</p>
-<p><strong>推荐</strong>：日落观赏、涂鸦墙、新马路夜市</p>
-<p>涂鸦墙： </p>
-<ul>
-<li>洛克网咖联盟（渔人码头店）背面：王鹤棣、吴世勋、坂本龙一</li>
-<li>7-11便利店（渔人码头店）正对着右边：Jennie、王嘉尔</li>
-<li>喜越Nice pho(渔人码头店)门口：张元英</li>
-<li>森X枫FALLING(容桂店)对面：周杰伦</li>
-</ul>
-<p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325221607120.png" alt="image-20250325221607120"></p>
-<p>如果时间允许，<strong>渔人码头</strong>的日落与夜市也别错过哦！</p>
-<h3 id="旅行小提示哦"><a href="#旅行小提示哦" class="headerlink" title="旅行小提示哦"></a>旅行小提示哦</h3><ul>
-<li>穿着舒适的鞋子，适合步行。</li>
-<li>早上出发可以避开人流高峰，下午轻松游玩。</li>
-<li>注意就是晚餐，一定要预定！预定！预定！</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>travel</tag>
-      </tags>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>公告和消息通知系统升级</title>
+      <link href="/sitan/2025/05/22/%E5%85%AC%E5%91%8A%E5%92%8C%E6%B6%88%E6%81%AF%E9%80%9A%E7%9F%A5%E7%B3%BB%E7%BB%9F%E5%8D%87%E7%BA%A7/"/>
+      <url>/sitan/2025/05/22/%E5%85%AC%E5%91%8A%E5%92%8C%E6%B6%88%E6%81%AF%E9%80%9A%E7%9F%A5%E7%B3%BB%E7%BB%9F%E5%8D%87%E7%BA%A7/</url>
+      
+        <content type="html"><![CDATA[<h1 id="公告和消息通知系统升级"><a href="#公告和消息通知系统升级" class="headerlink" title="公告和消息通知系统升级"></a>公告和消息通知系统升级</h1><h2 id="第一部分：需求规格说明"><a href="#第一部分：需求规格说明" class="headerlink" title="第一部分：需求规格说明"></a>第一部分：需求规格说明</h2><h3 id="1-项目概述"><a href="#1-项目概述" class="headerlink" title="1. 项目概述"></a>1. 项目概述</h3><p>本项目旨在对现有的公告功能进行全面升级改造，将其扩展为一个集成的公告和消息通知系统。新系统将支持个人消息推送、实时通知和多样化的展示方式，提升用户体验和系统交互效率。</p><h3 id="2-涉及模块"><a href="#2-涉及模块" class="headerlink" title="2. 涉及模块"></a>2. 涉及模块</h3><ul><li><strong>gv-system</strong>：系统核心模块</li><li><strong>gv-common</strong>：公共组件模块</li></ul><h3 id="3-功能需求"><a href="#3-功能需求" class="headerlink" title="3. 功能需求"></a>3. 功能需求</h3><h4 id="3-1-消息类型扩展"><a href="#3-1-消息类型扩展" class="headerlink" title="3.1 消息类型扩展"></a>3.1 消息类型扩展</h4><ul><li>增加带系统超链接的消息类型，支持用户点击后跳转至具体的系统页面</li><li>区分公告（全体用户）和消息（个人专属）两种主要类型</li></ul><h4 id="3-2-界面改造"><a href="#3-2-界面改造" class="headerlink" title="3.2 界面改造"></a>3.2 界面改造</h4><h5 id="3-2-1-消息公告悬浮窗"><a href="#3-2-1-消息公告悬浮窗" class="headerlink" title="3.2.1 消息公告悬浮窗"></a>3.2.1 消息公告悬浮窗</h5><ul><li>鼠标悬浮在通知图标上时，默认展示最新的10条消息&#x2F;公告</li><li>窗口底部增加”查看更多”选项，点击后跳转至完整的消息公告列表页面</li></ul><h5 id="3-2-2-公告页面改造"><a href="#3-2-2-公告页面改造" class="headerlink" title="3.2.2 公告页面改造"></a>3.2.2 公告页面改造</h5><ul><li>在原有公告页面基础上增加页签，区分”消息”与”公告”</li><li>统一展示字段，使页面可以同时支持展示个人消息和系统公告</li><li>支持按类型、日期等条件进行筛选和排序</li></ul><h4 id="3-3-消息推送方式"><a href="#3-3-消息推送方式" class="headerlink" title="3.3 消息推送方式"></a>3.3 消息推送方式</h4><p>实现三种消息推送展示方式：</p><ol><li><strong>中断提示弹窗</strong>：强制用户查看，包含”确认”按钮，点击确认之后消息标记‘已读’</li><li><strong>右上角不中断弹窗</strong>：不打断用户工作流程，有个‘X’关闭按钮，点击之后标记为‘已读’</li><li><strong>默认不弹出</strong>：仅在通知图标上显示未读消息数量（+1），点击去之后，如果点击链接直接跳转相关操作页面‘同时将标记为已读’</li></ol><h4 id="3-4-实时通知机制"><a href="#3-4-实时通知机制" class="headerlink" title="3.4 实时通知机制"></a>3.4 实时通知机制</h4><ul><li>采用WebSocket技术实现实时消息推送</li><li>当发送者创建消息&#x2F;公告时，接收者能够即时收到通知</li></ul><h4 id="3-5-离线消息处理"><a href="#3-5-离线消息处理" class="headerlink" title="3.5 离线消息处理"></a>3.5 离线消息处理</h4><ul><li>WebSocket连接断开后的消息将存储在系统中</li><li>用户下次登录时，按照原定的弹出方式显示离线期间产生的消息</li><li>提示用户还有多少条信息未读</li></ul><h4 id="3-6-审批模板（特殊消息处理）"><a href="#3-6-审批模板（特殊消息处理）" class="headerlink" title="3.6 审批模板（特殊消息处理）"></a>3.6 审批模板（特殊消息处理）</h4><ul><li>前端提供常规审批模板，支持用户直接在消息通知中进行操作</li><li>包含消息内容展示、”审批”和”拒绝”按钮</li></ul><h2 id="第二部分：技术实现方案"><a href="#第二部分：技术实现方案" class="headerlink" title="第二部分：技术实现方案"></a>第二部分：技术实现方案</h2><h3 id="1-系统架构设计"><a href="#1-系统架构设计" class="headerlink" title="1. 系统架构设计"></a>1. 系统架构设计</h3><h4 id="1-1-整体架构"><a href="#1-1-整体架构" class="headerlink" title="1.1 整体架构"></a>1.1 整体架构</h4><p>系统将采用前后端分离架构，后端基于现有的gv-system和gv-common模块进行扩展，前端负责消息展示和交互处理。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">    User(用户) --&gt; FrontEnd(前端应用)</span><br><span class="line">    FrontEnd &lt;--&gt; |HTTP请求| BackEnd(后端服务)</span><br><span class="line">    FrontEnd &lt;--&gt; |WebSocket| WSService(WebSocket服务)</span><br><span class="line">    BackEnd --&gt; Database[(数据库)]</span><br><span class="line">    WSService --&gt; Database</span><br><span class="line">    </span><br><span class="line">    subgraph 前端组件</span><br><span class="line">        FrontEnd --&gt; NotificationIcon(通知图标)</span><br><span class="line">        FrontEnd --&gt; HoverPanel(悬浮面板)</span><br><span class="line">        FrontEnd --&gt; Popups(弹窗组件)</span><br><span class="line">        FrontEnd --&gt; NotificationPage(消息公告页面)</span><br><span class="line">        FrontEnd --&gt; ApprovalTemplate(快速审批模板)</span><br><span class="line">    end</span><br><span class="line">    </span><br><span class="line">    subgraph 后端服务</span><br><span class="line">        BackEnd --&gt; MessageService(消息服务)</span><br><span class="line">        BackEnd --&gt; PushService(推送服务)</span><br><span class="line">        BackEnd --&gt; AnnotationProcessor(注解处理器)</span><br><span class="line">        WSService --&gt; MessageQueue(消息队列)</span><br><span class="line">    end</span><br></pre></td></tr></table></figure><h3 id="2-详细技术实现"><a href="#2-详细技术实现" class="headerlink" title="2. 详细技术实现"></a>2. 详细技术实现</h3><h4 id="2-1-消息推送流程"><a href="#2-1-消息推送流程" class="headerlink" title="2.1 消息推送流程"></a>2.1 消息推送流程</h4><h5 id="2-1-1-中断提示弹窗流程"><a href="#2-1-1-中断提示弹窗流程" class="headerlink" title="2.1.1 中断提示弹窗流程"></a>2.1.1 中断提示弹窗流程</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">    participant System as 系统服务</span><br><span class="line">    participant MessageService as 消息服务</span><br><span class="line">    participant WSServer as WebSocket服务</span><br><span class="line">    participant WSClient as WebSocket客户端</span><br><span class="line">    participant UI as 用户界面</span><br><span class="line">    </span><br><span class="line">    System-&gt;&gt;MessageService: 调用消息推送方法(紧急级别=高)</span><br><span class="line">    MessageService-&gt;&gt;MessageService: 创建消息记录</span><br><span class="line">    MessageService-&gt;&gt;WSServer: 发送消息(接收者ID, 消息内容, 展示方式=中断弹窗)</span><br><span class="line">    WSServer-&gt;&gt;WSClient: 推送消息</span><br><span class="line">    WSClient-&gt;&gt;UI: 显示中断弹窗</span><br><span class="line">    Note over UI: 用户无法继续操作直到处理该消息</span><br><span class="line">    </span><br><span class="line">    alt 用户点击确认</span><br><span class="line">        UI-&gt;&gt;WSClient: 确认消息</span><br><span class="line">        WSClient-&gt;&gt;WSServer: 发送确认信息</span><br><span class="line">        WSServer-&gt;&gt;MessageService: 更新消息状态为已读</span><br><span class="line">    end</span><br></pre></td></tr></table></figure><h5 id="2-1-2-不中断弹窗流程"><a href="#2-1-2-不中断弹窗流程" class="headerlink" title="2.1.2 不中断弹窗流程"></a>2.1.2 不中断弹窗流程</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">    participant System as 系统服务</span><br><span class="line">    participant MessageService as 消息服务</span><br><span class="line">    participant WSServer as WebSocket服务</span><br><span class="line">    participant WSClient as WebSocket客户端</span><br><span class="line">    participant UI as 用户界面</span><br><span class="line">    </span><br><span class="line">    System-&gt;&gt;MessageService: 调用消息推送方法(紧急级别=中)</span><br><span class="line">    MessageService-&gt;&gt;MessageService: 创建消息记录</span><br><span class="line">    MessageService-&gt;&gt;WSServer: 发送消息(接收者ID, 消息内容, 展示方式=不中断弹窗)</span><br><span class="line">    WSServer-&gt;&gt;WSClient: 推送消息</span><br><span class="line">    WSClient-&gt;&gt;UI: 显示右上角弹窗</span><br><span class="line">    Note over UI: 用户可以继续操作系统</span><br><span class="line">    </span><br><span class="line">    alt 用户点击确认</span><br><span class="line">        UI-&gt;&gt;WSClient: 确认消息</span><br><span class="line">        WSClient-&gt;&gt;WSServer: 发送确认信息</span><br><span class="line">        WSServer-&gt;&gt;MessageService: 更新消息状态为已读</span><br><span class="line">    else 用户忽略消息</span><br><span class="line">        Note over WSClient: 弹窗自动消失后</span><br><span class="line">        WSClient-&gt;&gt;WSServer: 发送已显示信息</span><br><span class="line">        WSServer-&gt;&gt;MessageService: 更新消息状态为已显示未读</span><br><span class="line">    end</span><br></pre></td></tr></table></figure><h5 id="2-1-3-默认不弹出流程"><a href="#2-1-3-默认不弹出流程" class="headerlink" title="2.1.3 默认不弹出流程"></a>2.1.3 默认不弹出流程</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">    participant System as 系统服务</span><br><span class="line">    participant MessageService as 消息服务</span><br><span class="line">    participant WSServer as WebSocket服务</span><br><span class="line">    participant WSClient as WebSocket客户端</span><br><span class="line">    participant UI as 用户界面</span><br><span class="line">    </span><br><span class="line">    System-&gt;&gt;MessageService: 调用消息推送方法(紧急级别=低)</span><br><span class="line">    MessageService-&gt;&gt;MessageService: 创建消息记录</span><br><span class="line">    MessageService-&gt;&gt;WSServer: 发送消息(接收者ID, 消息内容, 展示方式=仅通知)</span><br><span class="line">    WSServer-&gt;&gt;WSClient: 推送消息</span><br><span class="line">    WSClient-&gt;&gt;UI: 更新通知图标未读消息数(+1)</span><br><span class="line">    </span><br><span class="line">    alt 用户点击通知图标</span><br><span class="line">        UI-&gt;&gt;UI: 显示悬浮消息列表</span><br><span class="line">        Note over UI: 用户查看消息列表但未点击具体消息</span><br><span class="line">    else 用户点击具体消息</span><br><span class="line">        UI-&gt;&gt;WSClient: 发送查看消息请求</span><br><span class="line">        WSClient-&gt;&gt;WSServer: 发送已读信息</span><br><span class="line">        WSServer-&gt;&gt;MessageService: 更新消息状态为已读</span><br><span class="line">        </span><br><span class="line">        alt 消息需要审批</span><br><span class="line">            UI-&gt;&gt;UI: 显示审批操作界面</span><br><span class="line">            alt 用户点击审批</span><br><span class="line">                UI-&gt;&gt;WSClient: 发送审批信息</span><br><span class="line">                WSClient-&gt;&gt;WSServer: 转发审批信息</span><br><span class="line">                WSServer-&gt;&gt;MessageService: 更新消息审批状态为已同意</span><br><span class="line">            else 用户点击拒绝</span><br><span class="line">                UI-&gt;&gt;WSClient: 发送拒绝信息</span><br><span class="line">                WSClient-&gt;&gt;WSServer: 转发拒绝信息</span><br><span class="line">                WSServer-&gt;&gt;MessageService: 更新消息审批状态为已拒绝</span><br><span class="line">            end</span><br><span class="line">        end</span><br><span class="line">    end</span><br></pre></td></tr></table></figure><h4 id="2-2-离线消息处理流程"><a href="#2-2-离线消息处理流程" class="headerlink" title="2.2 离线消息处理流程"></a>2.2 离线消息处理流程</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">    participant User as 用户</span><br><span class="line">    participant UI as 用户界面</span><br><span class="line">    participant WSClient as WebSocket客户端</span><br><span class="line">    participant WSServer as WebSocket服务</span><br><span class="line">    participant MessageService as 消息服务</span><br><span class="line">    </span><br><span class="line">    Note over User,WSServer: WebSocket连接断开期间</span><br><span class="line">    Note over MessageService: 系统继续产生消息并存储</span><br><span class="line">    </span><br><span class="line">    User-&gt;&gt;UI: 用户登录系统</span><br><span class="line">    UI-&gt;&gt;WSClient: 初始化WebSocket连接</span><br><span class="line">    WSClient-&gt;&gt;WSServer: 建立连接并发送身份验证</span><br><span class="line">    WSServer-&gt;&gt;MessageService: 查询用户未读消息</span><br><span class="line">    MessageService-&gt;&gt;WSServer: 返回未读消息列表及显示方式</span><br><span class="line">    </span><br><span class="line">    loop 对每条紧急消息</span><br><span class="line">        WSServer-&gt;&gt;WSClient: 按原定显示方式推送消息</span><br><span class="line">        WSClient-&gt;&gt;UI: 显示消息(中断/不中断/通知)</span><br><span class="line">    end</span><br><span class="line">    </span><br><span class="line">    WSServer-&gt;&gt;WSClient: 发送未读消息统计</span><br><span class="line">    WSClient-&gt;&gt;UI: 更新通知图标显示未读数量</span><br><span class="line">    UI-&gt;&gt;User: 提示&quot;您有X条未读消息&quot;</span><br></pre></td></tr></table></figure><h4 id="2-3-注解处理机制"><a href="#2-3-注解处理机制" class="headerlink" title="2.3 注解处理机制"></a>2.3 注解处理机制</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">    class MessagePush &#123;</span><br><span class="line">        &lt;&lt;annotation&gt;&gt;</span><br><span class="line">        +MessageType type</span><br><span class="line">        +UrgencyLevel level</span><br><span class="line">        +boolean needApproval</span><br><span class="line">        +String targetLink</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    class MessagePushAspect &#123;</span><br><span class="line">        +void around(ProceedingJoinPoint joinPoint)</span><br><span class="line">        -void processMessagePush(MessagePush annotation, Object result)</span><br><span class="line">        -void sendMessage(MessageDTO message)</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    class MessageService &#123;</span><br><span class="line">        +void createMessage(MessageDTO message)</span><br><span class="line">        +void updateMessageStatus(Long messageId, MessageStatus status)</span><br><span class="line">        +List~MessageDTO~ getUnreadMessages(Long userId)</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    MessagePushAspect ..&gt; MessagePush : uses</span><br><span class="line">    MessagePushAspect --&gt; MessageService : calls</span><br></pre></td></tr></table></figure><h4 id="2-4-前端组件设计"><a href="#2-4-前端组件设计" class="headerlink" title="2.4 前端组件设计"></a>2.4 前端组件设计</h4><h5 id="2-4-1-组件关系图"><a href="#2-4-1-组件关系图" class="headerlink" title="2.4.1 组件关系图"></a>2.4.1 组件关系图</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">    App[应用主体] --&gt; NotificationModule[通知模块]</span><br><span class="line">    NotificationModule --&gt; NotificationIcon[通知图标]</span><br><span class="line">    NotificationModule --&gt; HoverPanel[悬浮面板]</span><br><span class="line">    NotificationModule --&gt; MessagePopups[消息弹窗]</span><br><span class="line">    NotificationModule --&gt; NotificationPage[通知页面]</span><br><span class="line">    </span><br><span class="line">    NotificationIcon --&gt; |点击| NotificationPage</span><br><span class="line">    NotificationIcon --&gt; |悬浮| HoverPanel</span><br><span class="line">    HoverPanel --&gt; |查看更多| NotificationPage</span><br><span class="line">    </span><br><span class="line">    MessagePopups --&gt; InterruptPopup[中断弹窗]</span><br><span class="line">    MessagePopups --&gt; NonInterruptPopup[不中断弹窗]</span><br><span class="line">    </span><br><span class="line">    NotificationPage --&gt; MessageTab[消息页签]</span><br><span class="line">    NotificationPage --&gt; AnnouncementTab[公告页签]</span><br><span class="line">    </span><br><span class="line">    MessageTab --&gt; |条目点击| MessageDetail[消息详情]</span><br><span class="line">    AnnouncementTab --&gt; |条目点击| AnnouncementDetail[公告详情]</span><br><span class="line">    </span><br><span class="line">    MessageDetail --&gt; ApprovalTemplate[审批模板]</span><br><span class="line">    ApprovalTemplate --&gt; ApproveButton[审批按钮]</span><br><span class="line">    ApprovalTemplate --&gt; RejectButton[拒绝按钮]</span><br></pre></td></tr></table></figure><h3 id="3-技术实现细节"><a href="#3-技术实现细节" class="headerlink" title="3. 技术实现细节"></a>3. 技术实现细节</h3><h4 id="3-1-WebSocket服务实现"><a href="#3-1-WebSocket服务实现" class="headerlink" title="3.1 WebSocket服务实现"></a>3.1 WebSocket服务实现</h4><p>后端将实现基于STOMP协议的WebSocket服务，主要功能包括：</p><ul><li>用户连接管理（连接建立、断开处理）</li><li>消息推送（根据消息类型和紧急程度选择推送方式）</li><li>消息状态更新（已读、未读、已审批等）</li></ul><h4 id="3-2-消息注解实现"><a href="#3-2-消息注解实现" class="headerlink" title="3.2 消息注解实现"></a>3.2 消息注解实现</h4><p>在gv-common模块中实现<code>@MessagePush</code>注解：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Target(ElementType.METHOD)</span></span><br><span class="line"><span class="meta">@Retention(RetentionPolicy.RUNTIME)</span></span><br><span class="line"><span class="meta">@Documented</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> MessagePush &#123;</span><br><span class="line">    MessageType <span class="title function_">type</span><span class="params">()</span> <span class="keyword">default</span> MessageType.PERSONAL;  <span class="comment">// 消息类型</span></span><br><span class="line">    UrgencyLevel <span class="title function_">level</span><span class="params">()</span> <span class="keyword">default</span> UrgencyLevel.LOW;    <span class="comment">// 紧急程度</span></span><br><span class="line">    <span class="type">boolean</span> <span class="title function_">needApproval</span><span class="params">()</span> <span class="keyword">default</span> <span class="literal">false</span>;             <span class="comment">// 是否需要审批</span></span><br><span class="line">    String <span class="title function_">targetLink</span><span class="params">()</span> <span class="keyword">default</span> <span class="string">&quot;&quot;</span>;                   <span class="comment">// 跳转链接</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>通过切面编程（AOP）实现注解处理，在被注解的方法执行后自动触发消息推送。</p><h4 id="3-3-前端消息处理"><a href="#3-3-前端消息处理" class="headerlink" title="3.3 前端消息处理"></a>3.3 前端消息处理</h4><p>前端将实现WebSocket客户端连接和消息处理逻辑：</p><ul><li>建立STOMP客户端连接</li><li>订阅个人消息主题</li><li>根据消息类型和紧急程度展示不同样式的通知</li><li>处理用户交互（确认、审批等）</li></ul><h4 id="3-4-离线消息处理策略"><a href="#3-4-离线消息处理策略" class="headerlink" title="3.4 离线消息处理策略"></a>3.4 离线消息处理策略</h4><p>当WebSocket连接断开时：</p><ul><li>后端继续记录为用户生成的消息</li><li>标记消息为”未推送”状态</li><li>用户重新连接时，查询未推送消息并按原定方式展示</li><li>提供未读消息数量统计</li></ul><h3 id="4-数据库表设计"><a href="#4-数据库表设计" class="headerlink" title="4. 数据库表设计"></a>4. 数据库表设计</h3><h4 id="4-1-消息表扩展设计"><a href="#4-1-消息表扩展设计" class="headerlink" title="4.1 消息表扩展设计"></a>4.1 消息表扩展设计</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE TABLE</span> `sys_message` (</span><br><span class="line">  `id` <span class="type">bigint</span>(<span class="number">20</span>) <span class="keyword">NOT NULL</span> AUTO_INCREMENT COMMENT <span class="string">&#x27;主键&#x27;</span>,</span><br><span class="line">  `title` <span class="type">varchar</span>(<span class="number">100</span>) <span class="keyword">NOT NULL</span> COMMENT <span class="string">&#x27;消息标题&#x27;</span>,</span><br><span class="line">  `content` text <span class="keyword">NOT NULL</span> COMMENT <span class="string">&#x27;消息内容&#x27;</span>,</span><br><span class="line">  `type` tinyint(<span class="number">4</span>) <span class="keyword">NOT NULL</span> COMMENT <span class="string">&#x27;消息类型：1-公告，2-个人消息&#x27;</span>,</span><br><span class="line">  `urgency_level` tinyint(<span class="number">4</span>) <span class="keyword">NOT NULL</span> COMMENT <span class="string">&#x27;紧急程度：1-高(中断)，2-中(不中断)，3-低(通知)&#x27;</span>,</span><br><span class="line">  `target_link` <span class="type">varchar</span>(<span class="number">255</span>) <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;目标页面链接&#x27;</span>,</span><br><span class="line">  `status` tinyint(<span class="number">4</span>) <span class="keyword">NOT NULL</span> <span class="keyword">DEFAULT</span> <span class="string">&#x27;0&#x27;</span> COMMENT <span class="string">&#x27;状态：0-未读，1-已读&#x27;</span>,</span><br><span class="line">  `receiver_id` <span class="type">bigint</span>(<span class="number">20</span>) <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;接收者ID（个人消息专用）&#x27;</span>,</span><br><span class="line">  `need_approval` tinyint(<span class="number">1</span>) <span class="keyword">NOT NULL</span> <span class="keyword">DEFAULT</span> <span class="string">&#x27;0&#x27;</span> COMMENT <span class="string">&#x27;是否需要审批：0-不需要，1-需要&#x27;</span>,</span><br><span class="line">  `approval_status` tinyint(<span class="number">4</span>) <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;审批状态：0-未审批，1-已同意，2-已拒绝&#x27;</span>,</span><br><span class="line">  `create_time` datetime <span class="keyword">NOT NULL</span> COMMENT <span class="string">&#x27;创建时间&#x27;</span>,</span><br><span class="line">  `read_time` datetime <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;阅读时间&#x27;</span>,</span><br><span class="line">  `creator_id` <span class="type">bigint</span>(<span class="number">20</span>) <span class="keyword">NOT NULL</span> COMMENT <span class="string">&#x27;创建者ID&#x27;</span>,</span><br><span class="line">  `is_pushed` tinyint(<span class="number">1</span>) <span class="keyword">NOT NULL</span> <span class="keyword">DEFAULT</span> <span class="string">&#x27;0&#x27;</span> COMMENT <span class="string">&#x27;是否已推送：0-未推送，1-已推送&#x27;</span>,</span><br><span class="line">  <span class="keyword">PRIMARY KEY</span> (`id`),</span><br><span class="line">  KEY `idx_receiver_id` (`receiver_id`),</span><br><span class="line">  KEY `idx_type` (`type`),</span><br><span class="line">  KEY `idx_status` (`status`)</span><br><span class="line">) ENGINE<span class="operator">=</span>InnoDB <span class="keyword">DEFAULT</span> CHARSET<span class="operator">=</span>utf8mb4 COMMENT<span class="operator">=</span><span class="string">&#x27;系统消息表&#x27;</span>;</span><br></pre></td></tr></table></figure><h3 id="5-接口设计"><a href="#5-接口设计" class="headerlink" title="5. 接口设计"></a>5. 接口设计</h3><h4 id="5-1-后端API接口"><a href="#5-1-后端API接口" class="headerlink" title="5.1 后端API接口"></a>5.1 后端API接口</h4><table><thead><tr><th>接口路径</th><th>方法</th><th>功能描述</th><th>参数</th><th>返回值</th></tr></thead><tbody><tr><td>&#x2F;api&#x2F;messages</td><td>GET</td><td>获取消息列表</td><td>分页参数，类型筛选</td><td>消息列表</td></tr><tr><td>&#x2F;api&#x2F;messages&#x2F;{id}</td><td>GET</td><td>获取消息详情</td><td>消息ID</td><td>消息详情</td></tr><tr><td>&#x2F;api&#x2F;messages&#x2F;{id}&#x2F;read</td><td>PUT</td><td>标记消息已读</td><td>消息ID</td><td>操作结果</td></tr><tr><td>&#x2F;api&#x2F;messages&#x2F;{id}&#x2F;approve</td><td>PUT</td><td>审批同意消息</td><td>消息ID</td><td>操作结果</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>&#x2F;api&#x2F;announcements</td><td>GET</td><td>获取公告列表</td><td>分页参数</td><td>公告列表</td></tr><tr><td>&#x2F;api&#x2F;messages&#x2F;unread&#x2F;count</td><td>GET</td><td>获取未读消息数</td><td>无</td><td>未读数量</td></tr></tbody></table><h4 id="5-2-WebSocket主题"><a href="#5-2-WebSocket主题" class="headerlink" title="5.2 WebSocket主题"></a>5.2 WebSocket主题</h4><table><thead><tr><th>主题</th><th>方向</th><th>功能描述</th><th>数据格式</th></tr></thead><tbody><tr><td>&#x2F;user&#x2F;{userId}&#x2F;queue&#x2F;messages</td><td>服务端→客户端</td><td>推送个人消息</td><td>消息对象</td></tr><tr><td>&#x2F;topic&#x2F;announcements</td><td>服务端→客户端</td><td>推送公告</td><td>公告对象</td></tr><tr><td>&#x2F;app&#x2F;message.read</td><td>客户端→服务端</td><td>标记消息已读</td><td>消息ID</td></tr><tr><td>&#x2F;app&#x2F;message.approve</td><td>客户端→服务端</td><td>审批同意消息</td><td>消息ID</td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table><h2 id="第三部分：预期效果"><a href="#第三部分：预期效果" class="headerlink" title="第三部分：预期效果"></a>第三部分：预期效果</h2><h3 id="1-预期效果"><a href="#1-预期效果" class="headerlink" title="1. 预期效果"></a>1. 预期效果</h3><p>通过本次升级改造，系统将具备完善的公告和消息通知功能，包括：</p><ul><li>区分公告与个人消息的展示</li><li>实现三种消息推送方式（中断弹窗、不中断弹窗、仅通知计数）</li><li>实时通知与离线消息处理</li><li>审批流程</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 方案 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Self-learning outside of work</title>
+      <link href="/sitan/2025/05/22/Self-learning-outside-of-work/"/>
+      <url>/sitan/2025/05/22/Self-learning-outside-of-work/</url>
+      
+        <content type="html"><![CDATA[<h1 id="工作之外的自我学习"><a href="#工作之外的自我学习" class="headerlink" title="工作之外的自我学习"></a>工作之外的自我学习</h1><blockquote><p>（Self-learning outside of work）</p><p>在快节奏的互联网时代，持续自我提升已成为软件工程师职业成长的必备要素。本文以“搭建个人博客”这一实战项目为案例，分享一条可复制的自主学习路径，帮助读者掌握高效的学习方法与实践技巧，并在过程中提升技术能力</p></blockquote><hr><h2 id="一、项目背景与目标"><a href="#一、项目背景与目标" class="headerlink" title="一、项目背景与目标"></a>一、项目背景与目标</h2><p>随着个人技术作品和经验的积累，拥有一座能够展示自己能力与思考深度的“线上园地”――个人博客，变得越来越重要。通过搭建个人博客，你可以：</p><ul><li><strong>展示作品集</strong>：以可检索、永久保存的形式，向甲方、面试官或行业同行呈现你的技术成果。</li><li><strong>巩固核心技能</strong>：Markdown 排版、静态站点生成器（如 Hexo）、CI&#x2F;CD 流程与容器化部署均是当下主流技术栈的一部分。</li><li><strong>提升表达与写作能力</strong>：撰写技术文章，既是对学习成果的梳理，也能锻炼逻辑与写作技巧。</li></ul><p>本案例的<strong>大目标</strong>是：构建一个完整的个人博客站点，包括定制主题、自动化部署与评论系统（排期中）；<strong>小目标</strong>则涵盖基础的静态站点搭建与第一篇 Markdown 文章的发布。</p><p>在个人博客项目中，CI&#x2F;CD 流程负责：</p><ol><li><strong>CI</strong> 阶段：将 Hexo 源码编译成静态页面，并运行可能的单元&#x2F;集成测试（如自定义脚本检查 Markdown 规范）。</li><li><strong>CD</strong> 阶段：将静态页面部署到托管平台（Github），并通知我们部署结果。</li></ol><hr><h2 id="二、三大学习路径"><a href="#二、三大学习路径" class="headerlink" title="二、三大学习路径"></a>二、三大学习路径</h2><p>为实现上述目标，本文提出三大互补的“自主学习路径”，帮助你在动手实践、信息获取和社区协作中不断进阶。</p><h3 id="1-路径一：动手教程（Hands-On-Tutorial）"><a href="#1-路径一：动手教程（Hands-On-Tutorial）" class="headerlink" title="1. 路径一：动手教程（Hands-On Tutorial）"></a>1. 路径一：动手教程（Hands-On Tutorial）</h3><ul><li><strong>小步骤</strong>：<ol><li>阅读至少 3 篇高口碑的 Hexo 入门教程，完成“Hello World”示例。</li><li>理解并手动编写 <code>Dockerfile</code>，在本地利用 Docker Compose 启动调试环境。（可以用hexo框架）</li></ol></li><li><strong>大里程碑</strong>：<ol><li>利用 GitHub Actions 将代码编译、测试、打包为静态文件。</li><li>配合  picgo+github图床，通过 CI&#x2F;CD 实现“一键发布”。</li><li>对主题样式、布局进行二次开发，满足移动端与 PC 端的体验一致性。</li></ol></li></ul><p><strong>价值</strong>：通过系统性的动手操作，你不仅能快速掌握工具链的使用，还能在实践中积累故障排查经验，为下一步更高阶的优化奠定基础。</p><h3 id="2-路径二：持续阅读（Knowledge-Harvest）"><a href="#2-路径二：持续阅读（Knowledge-Harvest）" class="headerlink" title="2. 路径二：持续阅读（Knowledge Harvest）"></a>2. 路径二：持续阅读（Knowledge Harvest）</h3><ul><li><strong>V2EX 每日精选</strong>：每天浏览“分享与创造”节点，收集社区中独立开发者的创意与最佳实践，从中获得灵感；</li><li><strong>Hacker News</strong>：关注技术、创业与安全领域的深度文章，直接与作者在评论区互动，探讨实现细节与优化思路；</li><li><strong>养成笔记习惯</strong>：将每天的灵感、问题与答案记录在个人知识库中（如 typora，blog日志），并定期复盘与输出。</li></ul><p><strong>价值</strong>：高质量的资讯来源能帮助你及时捕捉行业趋势与技术热点，同时对比多种实践方案，让你在决策时更加从容。</p><h3 id="3-路径三：开源贡献（Community-Driven-Growth）"><a href="#3-路径三：开源贡献（Community-Driven-Growth）" class="headerlink" title="3. 路径三：开源贡献（Community-Driven Growth）"></a>3. 路径三：开源贡献（Community-Driven Growth）</h3><ul><li><strong>文档与开发者体验</strong>：除了代码，开源项目的文档、演示示例、社区支持同样重要；</li><li><strong>从小 PR 入手</strong>：在 GitHub 上寻找带有 “good first issue” 或文档修正的任务，提交一次小型 PR（如修正拼写、补充示例），并根据维护者反馈不断迭代；</li><li><strong>团队协作流程</strong>：在实际贡献过程中，你将深入学习版本控制规范、代码评审流程、分支管理及持续集成实践。</li></ul><p><strong>价值</strong>：开源贡献不仅让你的代码能够被更多人复用与检验，还能让你结识同领域的技术大牛，提升社区影响力与职业口碑。</p><hr><h2 id="三、实施步骤与关键实践"><a href="#三、实施步骤与关键实践" class="headerlink" title="三、实施步骤与关键实践"></a>三、实施步骤与关键实践</h2><ol><li><strong>环境搭建</strong><ul><li>安装 Hexo 并选择一个基础主题；</li><li>配置 PicGo 与 github仓库，实现图片的可控托管。</li></ul></li><li><strong>持续集成</strong><ul><li>编写 GitHub Actions Workflow：包括代码检出、依赖安装、Hexo 编译、结果发布到静态托管平台；</li></ul></li><li><strong>定制主题与体验优化</strong><ul><li>调整布局与配色，兼顾易读性与美观；</li><li>集成评论初步计划是采用github的issues作为记录；</li><li>后期集成第三方评论系统（如 Utterances）与数据分析（Google Analytics）。</li></ul></li><li><strong>开源实践</strong><ul><li>定期浏览相关仓库的 issue 列表，主动挑选小任务；</li><li>在 PR 中主动沟通，记录每一次代码审查中的改进要点；</li></ul></li></ol><hr><h2 id="四、成果与评估"><a href="#四、成果与评估" class="headerlink" title="四、成果与评估"></a>四、成果与评估</h2><ul><li><strong>小成果</strong>：<ul><li>在两天内完成首篇文章上线；</li><li>主题配置零报错，图片托管功能稳定可靠。</li></ul></li><li><strong>大成果</strong>：<ul><li>CI&#x2F;CD 流程成熟，基本2分钟；</li><li>已成功合并开源项目 PR 2 个，获得维护者肯定。</li></ul></li><li><strong>软收益</strong>：<ul><li>写作与演讲素材丰富，后续可持续产出技术干货；</li><li>在开源社区积累经验和结识优秀技术大能</li></ul></li></ul><hr><h2 id="五、经验总结与行动建议"><a href="#五、经验总结与行动建议" class="headerlink" title="五、经验总结与行动建议"></a>五、经验总结与行动建议</h2><ol><li><strong>结构化学习最重要</strong>：将大目标拆解为阶段性小目标，通过 Sprint 式管理让进度可视化；</li><li><strong>“小胜利”激励前进</strong>：每完成一个小任务，就记录与分享，保持学习动力；</li><li><strong>社区互动加速成长</strong>：主动提问、评论与贡献，让你在实战中体会“知识的二次生长”；</li><li><strong>持续复盘与输出</strong>：将学习心得形成文章或演讲内容，不仅是对自我成果的沉淀，也是对他人的帮助。</li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> share </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>心悸的那一部分</title>
+      <link href="/sitan/2025/03/31/%E5%BF%83%E6%82%B8%E7%9A%84%E9%82%A3%E4%B8%80%E9%83%A8%E5%88%86/"/>
+      <url>/sitan/2025/03/31/%E5%BF%83%E6%82%B8%E7%9A%84%E9%82%A3%E4%B8%80%E9%83%A8%E5%88%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="曲终人散，舞尽长安花"><a href="#曲终人散，舞尽长安花" class="headerlink" title="曲终人散，舞尽长安花"></a>曲终人散，舞尽长安花</h2><p>未完待续…</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 思考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>冲浪板</title>
+      <link href="/sitan/2025/03/17/%E5%86%B2%E6%B5%AA%E6%9D%BF/"/>
+      <url>/sitan/2025/03/17/%E5%86%B2%E6%B5%AA%E6%9D%BF/</url>
+      
+        <content type="html"><![CDATA[<h1 id="冲浪板"><a href="#冲浪板" class="headerlink" title="冲浪板"></a>冲浪板</h1><blockquote><p>“挺有意思的，停下来👣看看吧！”</p><p>“说不定有你喜欢呢~~~”</p></blockquote><h2 id="第一篇：iFixit"><a href="#第一篇：iFixit" class="headerlink" title="第一篇：iFixit"></a>第一篇：iFixit</h2><p>iFixit：“修理手册”</p><p>​iFixit是一家设于美国加州圣路易斯-奥比斯波的公司，创立于2003年。该公司设立的同名网站以类似wiki网站的方式刊登电子产品等的DIY维修、拆解指南，并接受读者投稿 。拆解指南会根据拆解难易度以分数评定。</p><p>About Us: “The Future Is Repairable” </p><p>Wiki: <a href="https://en.wikipedia.org/wiki/IFixit">iFixit - Wikipedia</a></p><p>Web: <a href="https://www.ifixit.com/">https://www.ifixit.com/</a></p><p>Youtube: <a href="https://www.youtube.com/@iFixitYourself">10 Years of iFixit Tools</a></p><h2 id="第二篇：SkylineWebcams"><a href="#第二篇：SkylineWebcams" class="headerlink" title="第二篇：SkylineWebcams"></a>第二篇：SkylineWebcams</h2><p>SkylineWebcams ：“实况”</p><p>“我们对 SkylineWebcams 项目的愿景是创建一个全球性的毛细网络摄像头网络，以促进旅游业、地方、人民和不同文化的发展，同时也希望这能激励更多的人尊重我们的地球，让它变得更加美好。”</p><p>Web：<a href="https://www.skylinewebcams.com/">▶️ Live HD Cams from the World! - SkylineWebcams</a></p><p>Youtube：<a href="https://www.youtube.com/channel/UC2WMV4vCYurHdHPd9pCqYSg">(1) SkylineWebcams - YouTube</a></p><h2 id="第三篇：沉浸式翻译"><a href="#第三篇：沉浸式翻译" class="headerlink" title="第三篇：沉浸式翻译"></a>第三篇：沉浸式翻译</h2><p>沉浸式翻译：“翻译官”</p><p>「沉浸式翻译」<strong>是一款免费的，好用的，没有废话的，革命性的，饱受赞誉的，AI 驱动的双语网页翻译扩展，帮助你有效地打破信息差</strong>。 主要特性： - 沉浸式阅读外文网站- 通过智能识别网页主内容区域并进行双语对照翻译，沉浸式翻译提供了全新的外文阅读体验，因此得名“沉浸式翻译”。</p><p>Web：<a href="https://app.immersivetranslate.com/">沉浸式翻译 - 文档双语翻译：一键翻译 PDF，ePub 电子书，字幕文件，txt 文件</a></p><p>Youtube：<a href="https://www.youtube.com/@ImmersiveTranslate">亮点功能介绍｜想学外语和不想学外语的人都会喜欢的工具—沉浸式翻译</a></p><h2 id="第四篇：Hacker-News"><a href="#第四篇：Hacker-News" class="headerlink" title="第四篇：Hacker News"></a>第四篇：Hacker News</h2><p>Hacker News (HN) ：“新闻集”</p><p><strong>Hacker News</strong> （ <strong>HN</strong> ）是一家专注于计算机科学和创业的社交新闻网站。它由投资基金和初创企业孵化器<a href="https://en.wikipedia.org/wiki/Y_Combinator">Y Combinator</a>运营。一般来说，可以提交的内容被定义为“任何能满足一个人的求知欲的东西”。</p><p><a href="https://news.ycombinator.com/">Hacker News (HN)</a> 是一个<strong>新闻聚合器</strong>，用户可以在其中查找和讨论最新消息，并提交任何满足一个人的求知欲的内容。YC 校友还在 HN 上发布工程、产品和设计职位。</p><p>“Hacker News” 中的“hacker”一词取其原意需要引证 ，指那些喜欢摆弄技术的人组成的黑客文化。</p><p>Web：<a href="https://news.ycombinator.com/newest">新链接 | 黑客新闻 — New Links | Hacker News</a></p><h2 id="第五篇：Wise"><a href="#第五篇：Wise" class="headerlink" title="第五篇：Wise"></a>第五篇：Wise</h2><p>汇率计算器：“随时随地，汇无国界”</p><p>​Wise是一种以尽可能简单、尽可能少的价格将您的资金转移到世界各地的方式。我们正在为跨境生活、旅行或经商的任何人建立一个更好、更便宜、更公平的系统。</p><p>Web：<a href="https://wise.com/">Wise：国际账户 | 汇无国界</a></p><p>汇率换算：<a href="https://wise.com/zh-cn/currency-converter/">汇率换算器 | 外汇汇率 | Wise</a></p><h2 id="第六篇：深言达意"><a href="#第六篇：深言达意" class="headerlink" title="第六篇：深言达意"></a>第六篇：深言达意</h2><p>深言达意：“表达”</p><p>​【深言达意】<strong>是一款可根据模糊描述，找词找句的智能写作工具</strong>。 产品基于强大的语言理解和算法能力，助你在深邃词海中快速找到更恰切的表达，妙笔生花，灵感迸发。</p><p>Web：<a href="https://www.shenyandayi.com/">深言达意 – 找词找句</a></p><h2 id="第七篇：uptodown"><a href="#第七篇：uptodown" class="headerlink" title="第七篇：uptodown"></a>第七篇：uptodown</h2><p>uptodown：“下载器”</p><p>“Uptodown是一家专门从事Android 的多平台应用商店。我们的目标是免费且不受限制地访问广泛的应用程序目录，从任何浏览器以及通过我们的官方本机应用程序访问的法律分销平台。”</p><p>Web：<a href="https://en.uptodown.com/windows">App Downloads for Windows - Download, Discover, Share on Uptodown</a></p><p>Wiki：<a href="https://es.wikipedia.org/wiki/Uptodown">Uptodown - Wikipedia, la enciclopedia libre</a></p><h2 id="第八篇：VPN"><a href="#第八篇：VPN" class="headerlink" title="第八篇：VPN"></a>第八篇：VPN</h2><p>VPN：“科学”</p><p>“VPN 代表**“虚拟专用网络”<strong>，描述了在使用公共网络时建立受保护网络连接的机会。VPN 会加密您的互联网流量并伪装您的在线身份。这使得第三方更难跟踪您的在线活动并窃取数据。加密是</strong>实时**进行的。”</p><p>​–来源文章：<a href="https://www.kaspersky.com/resource-center/definitions/what-is-a-vpn">What is VPN? How It Works, Types of VPN</a></p><p>Clash：<a href="https://docs.gtk.pw/">Clash for Windows | Clash for Windows 代理工具使用说明</a></p><h2 id="第九篇：随机八股文"><a href="#第九篇：随机八股文" class="headerlink" title="第九篇：随机八股文"></a>第九篇：随机八股文</h2><p><strong>随机八股文：“生成器”</strong></p><p>🚀 一款 AI 驱动技术八股文面试平台，助你轻松提升编码技能与技术实力</p><p>Web：<a href="https://devinterview.org/">随机八股文生成器</a></p><p>GitHub：<a href="https://github.com/peanut996/random-interview-platform">GitHub - peanut996&#x2F;random-interview-platform</a></p><h2 id="第十篇：V2EX"><a href="#第十篇：V2EX" class="headerlink" title="第十篇：V2EX"></a>第十篇：V2EX</h2><p><strong>V2EX：“论坛”</strong></p><p>V2EX（way to explore的缩写）是一个网络论坛，官方自称为一个“由设计师、程序员及有创意的人参与的社区”。它的建站目的是基于兴趣，将用户创建的内容进行组织并分类成不同“节点”（类似Reddit的分类），网站以内容的活跃程度决定这些内容在网站首页的排列顺序。</p><p>Web：<a href="https://www.v2ex.com/">V2EX</a></p><p>Wiki：<a href="https://zh.wikipedia.org/wiki/V2EX">V2EX - 维基百科，自由的百科全书</a></p><p>GitHub：<a href="https://github.com/v2ex">V2EX · GitHub</a></p><h2 id="第十一篇：代码变量命名"><a href="#第十一篇：代码变量命名" class="headerlink" title="第十一篇：代码变量命名"></a>第十一篇：代码变量命名</h2><p><strong>代码变量命名：“CHTML”</strong></p><p>chtml即code helper tag mark law 代码辅助标记方法，是一款简洁好用的在线的代码命名工具、变量命名工具、变量命名规则库，使用它可以让您轻松摆脱翻译软件的困扰，快速选择合适的变量名称用于开发工作中。</p><p>Web：<a href="https://www.chtml.cn/">CHTML代码变量命名工具_变量命名规则库</a></p><p>uTools：alt+空格，chtml，输入变量。</p><h2 id="第十二篇：MIN2K"><a href="#第十二篇：MIN2K" class="headerlink" title="第十二篇：MIN2K"></a>第十二篇：MIN2K</h2><p><strong>min2k：</strong></p><p>min2k专注于办公效率工具开发，可以利用mermaid和markdown去生成对应的流程图、关系图、思维导图、时序图等。</p><p>Web：<a href="https://www.min2k.com/">MIN2K官方网站</a></p><p>MinDoc帮助手册：<a href="https://www.iminho.me/wiki/docs/mindoc/mindoc-summary.md">MinDoc简介 - Powered by MinDoc</a></p><h2 id="第十三篇：arXiv"><a href="#第十三篇：arXiv" class="headerlink" title="第十三篇：arXiv"></a>第十三篇：arXiv</h2><p><strong>arXiv ：“论文集”</strong></p><p>arXiv （发音为“ archive ”——其中的 X 代表希腊字母 chi ⟨χ⟩）是一个开放存取的电子预印本和后印本（称为电子印本）资源库，这些资源经审核后批准发布，但未经同行评审。它包括数学、物理学、天文学、电子工程、计算机科学、定量生物学、统计学、数理金融和经济学等领域的科学论文，可在线访问。在数学和物理学的许多领域，几乎所有科学论文在发表于同行评审期刊之前都会自行存档在 arXiv 资源库中。</p><p>Web：<a href="https://arxiv.org/search/">Search | arXiv e-print repository</a></p><p>Wiki：<a href="https://en.wikipedia.org/wiki/ArXiv">arXiv - 维基百科 — arXiv - Wikipedia</a></p><h2 id="未完待续…"><a href="#未完待续…" class="headerlink" title="未完待续…"></a>未完待续…</h2>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> tools </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>申请游玩</title>
+      <link href="/sitan/2025/03/11/%E9%9F%A9%E5%9B%BD%E7%AD%BE%E8%AF%81%E7%94%B3%E8%AF%B7/"/>
+      <url>/sitan/2025/03/11/%E9%9F%A9%E5%9B%BD%E7%AD%BE%E8%AF%81%E7%94%B3%E8%AF%B7/</url>
+      
+        <content type="html"><![CDATA[<h1 id="游玩推荐、签证办理指南"><a href="#游玩推荐、签证办理指南" class="headerlink" title="游玩推荐、签证办理指南"></a>游玩推荐、签证办理指南</h1><p>下面是有多国的签证办理指南：目前韩国</p><h2 id="韩国"><a href="#韩国" class="headerlink" title="韩国"></a>韩国</h2><blockquote><p>我们是这里以广州为例！ </p></blockquote><p>我们可以选择自己办理或者是代办</p><p>下面是代办的处理指南：<a href="https://www.visaforkorea-gz.com/">KVACinGZ</a></p><p>自己办理的指南（针对于旅游签）：<a href="https://www.hanchao.com/contents/basic_info_detail.html?id=10187">韩国自由行签证攻略_韩国旅游基本信息_韩国旅游网-韩巢</a></p><p>签证的常见问题回答指南：<a href="https://www.visaforkorea-gz.com/customercenter/faq/list/">KVACinGZ</a></p><p>如果你想找机构帮忙跟进处理（一步到位，有对应价格要求）： <a href="https://m.ctrip.com/visa/southkorea100042/p1672217.html">韩国个人旅游签证5年多次广州送签·常规办理·适用于可提供资产相关材料的申请人·可选领馆加急3工审核服务-韩国签证-携程</a></p><p>也可以采用“穗好办app”处理： <a href="https://www.gz.gov.cn/zt/shb/content/post_9423165.html">“穗好办”签证服务，助你丝滑出境，说走就走！ - 广州市人民政府门户网站</a></p><h2 id="中国"><a href="#中国" class="headerlink" title="中国"></a>中国</h2><h3 id="第一站：广东顺德市"><a href="#第一站：广东顺德市" class="headerlink" title="第一站：广东顺德市"></a>第一站：广东顺德市</h3><blockquote><p>推荐路线：清晖园-》华盖山栈道-》 金榜上街-》顺峰山公园 OR 渔人码头</p></blockquote><p>GO！GO！GO！（9:30-10点出发较为合适）</p><h4 id="清晖园"><a href="#清晖园" class="headerlink" title="清晖园"></a>清晖园</h4><p>简介：庭园利用碧水、绿树，古墙、漏窗、石山、小桥、曲廊等与亭台楼阁交互融合，集中国古代建筑、园林、雕刻、诗书、灰雕等艺术于一身，是顺德必去的景点之一。（游玩时间：1.5小时；门票：15元）</p><p>**拍照📷：<strong>澄漪亭</strong>、<strong>船厅水景</strong>，处处皆风景，出片率极高</p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325221526880.png" alt="image-20250325221526880"></p><p>提示：早餐清晖园附近推荐：韦记牛杂汤** ）</p><h4 id="华盖路"><a href="#华盖路" class="headerlink" title="华盖路"></a>华盖路</h4><p>简介：从清晖园出来，步行几分钟便可到达华盖路。华盖路是顺德的<strong>老商业街</strong>，充满了浓厚的烟火气息，岭南骑楼建筑与现代店铺交织，别有一番风味。</p><p>**推荐美食🥣：**民信双皮奶、</p><p><strong>双皮奶文化：</strong> 三楼的双皮奶博物馆，可以了解双皮奶的制作历史和文化</p><p>推荐饮品：李小马水牛奶  <strong>东方美人云顶</strong>，奇兰乌龙茶茶底＋奶油奶盖，茶味很浓，加上水牛奶却细腻香滑不涩口</p><h3 id="华盖路栈道"><a href="#华盖路栈道" class="headerlink" title="华盖路栈道"></a>华盖路栈道</h3><p>简介：沿着华盖路一直走，便能找到华盖路栈道。你可以俯瞰整个华盖路的热闹景象，还能欣赏到远处的山峦和城市风光。一边漫步，一边感受着微风拂面，惬意无比。</p><p><strong>提示：这个山很小很小的走上去刚刚好，就当是消食了♪٩(´ω&#96;)و♪</strong></p><h3 id="金榜上街"><a href="#金榜上街" class="headerlink" title="金榜上街"></a>金榜上街</h3><p>简介：从华盖路栈道下来，顺着路牌继续前行就可以到达金榜上街。这里是一条充满岭南特色的<strong>美食老街</strong>，小巷烟火气浓厚，有很多很多美食小店。</p><p><strong>推荐店铺：</strong></p><p><strong>浪鳗鱼香</strong></p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215824098.png" alt="image-20250325215824098"></p><p><strong>凤旨捞®凤城鱼皮</strong></p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215849654.png" alt="image-20250325215849654"></p><p><strong>梯底牛乳铺</strong></p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215800964.png" alt="image-20250325215800964"></p><p><strong>金榜欢记牛乳</strong> </p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215738016.png" alt="image-20250325215738016"></p><p><strong>阿嫲私房名点</strong></p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215927312.png" alt="image-20250325215927312"></p><h3 id="顺峰山公园（二选一）"><a href="#顺峰山公园（二选一）" class="headerlink" title="顺峰山公园（二选一）"></a>顺峰山公园（二选一）</h3><p>简介：从金榜上街出来，乘坐公交车或打车前往顺峰山公园。顺峰山公园是一个集自然风光、人文景观和休闲娱乐为一体的大型公园。<strong>强烈建议</strong>扫一辆共享单车，绕着公园骑行，感受大自然的美好。</p><p><strong>推荐游览路线</strong></p><ul><li>顺峰山公园北门➡️公园石牌坊➡️粤剧大观园➡️迎春亭➡️红廊➡️青龙阁➡️古趣亭➡️迎旭➡️公园绿道➡️Dehaus Coffee➡️汀芷园➡️青云牌坊➡️北门</li><li>顺峰山公园南门➡️美术馆➡️湖边教堂➡️莫奈桥➡️大柠檬➡️莫比乌斯楼梯➡️大滑梯→大草坪➡️汀芷园➡️粤剧大观园➡️石牌坊➡️️北门</li><li>想拍<strong>古风园林</strong>的从【北门进】，想拍<strong>湖景楼梯和大柠檬</strong>的从【南门进】</li></ul><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325221424432.png" alt="image-20250325221424432"></p><h3 id="渔人码头（二选一）"><a href="#渔人码头（二选一）" class="headerlink" title="渔人码头（二选一）"></a>渔人码头（二选一）</h3><p>简介：强烈建议夕阳时分前赶到渔人码头，这样，你就可以欣赏到美丽的日落景色</p><p><strong>推荐</strong>：日落观赏、涂鸦墙、新马路夜市</p><p>涂鸦墙： </p><ul><li>洛克网咖联盟（渔人码头店）背面：王鹤棣、吴世勋、坂本龙一</li><li>7-11便利店（渔人码头店）正对着右边：Jennie、王嘉尔</li><li>喜越Nice pho(渔人码头店)门口：张元英</li><li>森X枫FALLING(容桂店)对面：周杰伦</li></ul><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325221607120.png" alt="image-20250325221607120"></p><p>如果时间允许，<strong>渔人码头</strong>的日落与夜市也别错过哦！</p><h3 id="旅行小提示哦"><a href="#旅行小提示哦" class="headerlink" title="旅行小提示哦"></a>旅行小提示哦</h3><ul><li>穿着舒适的鞋子，适合步行。</li><li>早上出发可以避开人流高峰，下午轻松游玩。</li><li>注意就是晚餐，一定要预定！预定！预定！</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> travel </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>申请游玩</title>
+      <link href="/sitan/2025/03/11/%E7%94%B3%E8%AF%B7%E6%B8%B8%E7%8E%A9/"/>
+      <url>/sitan/2025/03/11/%E7%94%B3%E8%AF%B7%E6%B8%B8%E7%8E%A9/</url>
+      
+        <content type="html"><![CDATA[<h1 id="游玩推荐、签证办理指南"><a href="#游玩推荐、签证办理指南" class="headerlink" title="游玩推荐、签证办理指南"></a>游玩推荐、签证办理指南</h1><p>下面是有多国的签证办理指南：目前韩国</p><h2 id="韩国"><a href="#韩国" class="headerlink" title="韩国"></a>韩国</h2><blockquote><p>我们是这里以广州为例！ </p></blockquote><p>我们可以选择自己办理或者是代办</p><p>下面是代办的处理指南：<a href="https://www.visaforkorea-gz.com/">KVACinGZ</a></p><p>自己办理的指南（针对于旅游签）：<a href="https://www.hanchao.com/contents/basic_info_detail.html?id=10187">韩国自由行签证攻略_韩国旅游基本信息_韩国旅游网-韩巢</a></p><p>签证的常见问题回答指南：<a href="https://www.visaforkorea-gz.com/customercenter/faq/list/">KVACinGZ</a></p><p>如果你想找机构帮忙跟进处理（一步到位，有对应价格要求）： <a href="https://m.ctrip.com/visa/southkorea100042/p1672217.html">韩国个人旅游签证5年多次广州送签·常规办理·适用于可提供资产相关材料的申请人·可选领馆加急3工审核服务-韩国签证-携程</a></p><p>也可以采用“穗好办app”处理： <a href="https://www.gz.gov.cn/zt/shb/content/post_9423165.html">“穗好办”签证服务，助你丝滑出境，说走就走！ - 广州市人民政府门户网站</a></p><h2 id="中国"><a href="#中国" class="headerlink" title="中国"></a>中国</h2><h3 id="第一站：广东顺德市"><a href="#第一站：广东顺德市" class="headerlink" title="第一站：广东顺德市"></a>第一站：广东顺德市</h3><blockquote><p>推荐路线：清晖园-》华盖山栈道-》 金榜上街-》顺峰山公园 OR 渔人码头</p></blockquote><p>GO！GO！GO！（9:30-10点出发较为合适）</p><h4 id="清晖园"><a href="#清晖园" class="headerlink" title="清晖园"></a>清晖园</h4><p>简介：庭园利用碧水、绿树，古墙、漏窗、石山、小桥、曲廊等与亭台楼阁交互融合，集中国古代建筑、园林、雕刻、诗书、灰雕等艺术于一身，是顺德必去的景点之一。（游玩时间：1.5小时；门票：15元）</p><p>**拍照📷：<strong>澄漪亭</strong>、<strong>船厅水景</strong>，处处皆风景，出片率极高</p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325221526880.png" alt="image-20250325221526880"></p><p>提示：早餐清晖园附近推荐：韦记牛杂汤** ）</p><h4 id="华盖路"><a href="#华盖路" class="headerlink" title="华盖路"></a>华盖路</h4><p>简介：从清晖园出来，步行几分钟便可到达华盖路。华盖路是顺德的<strong>老商业街</strong>，充满了浓厚的烟火气息，岭南骑楼建筑与现代店铺交织，别有一番风味。</p><p>**推荐美食🥣：**民信双皮奶、</p><p><strong>双皮奶文化：</strong> 三楼的双皮奶博物馆，可以了解双皮奶的制作历史和文化</p><p>推荐饮品：李小马水牛奶  <strong>东方美人云顶</strong>，奇兰乌龙茶茶底＋奶油奶盖，茶味很浓，加上水牛奶却细腻香滑不涩口</p><h4 id="华盖路栈道"><a href="#华盖路栈道" class="headerlink" title="华盖路栈道"></a>华盖路栈道</h4><p>简介：沿着华盖路一直走，便能找到华盖路栈道。你可以俯瞰整个华盖路的热闹景象，还能欣赏到远处的山峦和城市风光。一边漫步，一边感受着微风拂面，惬意无比。</p><p><strong>提示：这个山很小很小的走上去刚刚好，就当是消食了♪٩(´ω&#96;)و♪</strong></p><h4 id="金榜上街"><a href="#金榜上街" class="headerlink" title="金榜上街"></a>金榜上街</h4><p>简介：从华盖路栈道下来，顺着路牌继续前行就可以到达金榜上街。这里是一条充满岭南特色的<strong>美食老街</strong>，小巷烟火气浓厚，有很多很多美食小店。</p><p><strong>推荐店铺：</strong></p><p><strong>浪鳗鱼香</strong></p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215824098.png" alt="image-20250325215824098"></p><p><strong>凤旨捞®凤城鱼皮</strong></p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215849654.png" alt="image-20250325215849654"></p><p><strong>梯底牛乳铺</strong></p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215800964.png" alt="image-20250325215800964"></p><p><strong>金榜欢记牛乳</strong> </p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215738016.png" alt="image-20250325215738016"></p><p><strong>阿嫲私房名点</strong></p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325215927312.png" alt="image-20250325215927312"></p><h4 id="顺峰山公园（二选一）"><a href="#顺峰山公园（二选一）" class="headerlink" title="顺峰山公园（二选一）"></a>顺峰山公园（二选一）</h4><p>简介：从金榜上街出来，乘坐公交车或打车前往顺峰山公园。顺峰山公园是一个集自然风光、人文景观和休闲娱乐为一体的大型公园。<strong>强烈建议</strong>扫一辆共享单车，绕着公园骑行，感受大自然的美好。</p><p><strong>推荐游览路线</strong></p><ul><li>顺峰山公园北门➡️公园石牌坊➡️粤剧大观园➡️迎春亭➡️红廊➡️青龙阁➡️古趣亭➡️迎旭➡️公园绿道➡️Dehaus Coffee➡️汀芷园➡️青云牌坊➡️北门</li><li>顺峰山公园南门➡️美术馆➡️湖边教堂➡️莫奈桥➡️大柠檬➡️莫比乌斯楼梯➡️大滑梯→大草坪➡️汀芷园➡️粤剧大观园➡️石牌坊➡️️北门</li><li>想拍<strong>古风园林</strong>的从【北门进】，想拍<strong>湖景楼梯和大柠檬</strong>的从【南门进】</li></ul><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325221424432.png" alt="image-20250325221424432"></p><h4 id="渔人码头（二选一）"><a href="#渔人码头（二选一）" class="headerlink" title="渔人码头（二选一）"></a>渔人码头（二选一）</h4><p>简介：强烈建议夕阳时分前赶到渔人码头，这样，你就可以欣赏到美丽的日落景色</p><p><strong>推荐</strong>：日落观赏、涂鸦墙、新马路夜市</p><p>涂鸦墙： </p><ul><li>洛克网咖联盟（渔人码头店）背面：王鹤棣、吴世勋、坂本龙一</li><li>7-11便利店（渔人码头店）正对着右边：Jennie、王嘉尔</li><li>喜越Nice pho(渔人码头店)门口：张元英</li><li>森X枫FALLING(容桂店)对面：周杰伦</li></ul><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250325221607120.png" alt="image-20250325221607120"></p><p>如果时间允许，<strong>渔人码头</strong>的日落与夜市也别错过哦！</p><h4 id="旅行小提示哦"><a href="#旅行小提示哦" class="headerlink" title="旅行小提示哦"></a>旅行小提示哦</h4><ul><li>穿着舒适的鞋子，适合步行。</li><li>早上出发可以避开人流高峰，下午轻松游玩。</li><li>注意就是晚餐，一定要预定！预定！预定！</li></ul><h3 id="第二站：香港"><a href="#第二站：香港" class="headerlink" title="第二站：香港"></a>第二站：香港</h3><blockquote><p>出行、购物、美食、景点</p></blockquote><h4 id="出行"><a href="#出行" class="headerlink" title="出行"></a>出行</h4><h4 id="购物"><a href="#购物" class="headerlink" title="购物"></a>购物</h4><h4 id="美食"><a href="#美食" class="headerlink" title="美食"></a>美食</h4><h4 id="景点"><a href="#景点" class="headerlink" title="景点"></a>景点</h4><p>旅游小提示哦</p><ul><li>支付宝，八达通，信用卡（商场优惠）</li><li>充电宝，转换插头，身份证，香港签证（有效）</li><li>可以自备购物袋</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> travel </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2024年总总结</title>
+      <link href="/sitan/2025/02/26/2024%E5%B9%B4%E6%80%BB%E6%80%BB%E7%BB%93/"/>
+      <url>/sitan/2025/02/26/2024%E5%B9%B4%E6%80%BB%E6%80%BB%E7%BB%93/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>总结，久违了~ ~ ~</p></blockquote><h2 id="2024"><a href="#2024" class="headerlink" title="2024"></a>2024</h2><p>2024年，是我的毕业季，也是我的社畜开始。</p><p>故事线不知从何说起，时间线呢？还是事情好坏呢？一年四季？</p><p>实习结束，毕业设计，毕业论文，旅游散心，赶上工作末班车，初识管培生，遇良师益友，也有“紧急避险人”？</p><p>水瓶座，是一个思想自由，带些神经质的我。有时候都不知道自己在干嘛？换说法就是忙忙碌碌却又一无所有。</p><p>清明时节雨纷纷，迂回不见自乡人。四爷应顺喜天府，默不作声泪满痕。</p><h2 id="夏霞：Atarayo"><a href="#夏霞：Atarayo" class="headerlink" title="夏霞：Atarayo"></a>夏霞：Atarayo</h2><p>作者：说到“Atarayo的夏曲”，当属《夏霞》。一直带着这样的印象迎来了今年的夏天。一首全新的夏曲成为了我们的伙伴。</p><p>关于“追逐夏天”这个表达，其实本身便蕴含了“夏日终有尽头”，以及“惋惜之情”的含义。  换言之，这首歌表达的是对终将完结的夏天的惋惜。  而特意在开头加上“再度”一词，赋予标题以“夏天的几度离去，便带来几度惋惜”的意义。</p><p>明明早已结束的那个夏天，却几度在记忆中浮现。每当这个季节来临，总忍不住将新的夏日终结与往昔的那一天重叠一处，惋惜不已。</p><h2 id="小舒同学"><a href="#小舒同学" class="headerlink" title="小舒同学"></a>小舒同学</h2><p>从接触小舒到现在，已经两年多了，回想起来，它就像我看着一个小宝宝一点一点长大的过程。刚开始，还像一个不懂事的婴儿，什么都不会，只能在代码的世界里“爬行”。那时候，我时常需要搀扶它，让它一点点学会走路，每一步都走得慢得像是在摸索，偶尔也会因为一些小问题卡住，像个爱哭的孩子。</p><p>慢慢，它也学会了自己站起来，能自己走了，虽然还是走得很慢，偶尔还是会摔一跤，但总是勇敢地站起来，继续走。那些简单的功能开始一个个有了雏形，我开始看见它的模样。就像一个无意识的小孩，偶尔做出一些让人惊讶的“小聪明”，让我心里也充满了喜悦和期待。</p><p>接着，它变得越来越懂事，开始小跑起来，功能也越来越丰富，做事越来越得心应手。它就像一个正在成长的青少年，开始有了自己的想法，虽然偶尔还会出现一些叛逆的小问题，但总的来说，它越来越成熟，越来越有自己的特色。而我，像一个父母一样，默默地在旁边看着它，既骄傲又感慨。</p><p>直到现在，它已经变得像个“成人”一样，能够快速高效地完成很多任务，曾经的那些小问题和挑战，现在看起来已经是成长过程中的一部分。我也终于明白，编码就像是养育一个孩子，从懵懂无知到独立自主，每一步都充满了付出和感动。</p><p>现在的小舒，不再是那个只会爬的婴儿，它已经有了自己的独立性和活力，每一个功能的实现都像是它的一步步成长，带给我无限的成就感和喜悦。</p><h2 id="公司工作"><a href="#公司工作" class="headerlink" title="公司工作"></a>公司工作</h2><p> 一点都不正常。。。。。。工作分配乱糟糟，职责也不明确，简直就像是大杂烩一锅煮，有时候真的是很“青黄不接”，感觉每个项目都有点“屎山代码”的味道。但好在EAM系统项目是一个全新（啥也没有的意思，一句代码都没有的那种），它是是我刚进公司时的“子项目”，说实话，它的发展也是在一步步摸索中，像是刚刚学会走路的孩子。现在，第二次蜕变的筹划已经开始了，但总有点“走一步看一步”的感觉。</p><p>不过，毕竟这次打算搞点“大动作”——引入新架构，搞消息队列，数据同步机制，异常处理，日志记录，AOP切面处理，还要集成钉钉、OA和ERP系统，说实话，这些技术的结合对我来说绝对是个小突破。每一步都能让我在工作中得到锻炼和成长，不光是技术，还有整体架构的理解。虽然现在还在筹划阶段，感觉像是在写一份理想中的蓝图，有点迫不及待，又有些微妙的不安。</p><p>不过吧，也不能忽视现实的“鸡肋”局面，谁知道到时候会发生什么？哈哈，说不定我到时候都离职了，反正这项目有时候让我觉得有点像是个“长不大的孩子”，我也有点无奈又有点期盼，但至少，规划已经出来了——这种小进步也许就是我在这家公司为自己争取到的最大“收获”了吧。（有点2025的味道）</p><h2 id="情感上"><a href="#情感上" class="headerlink" title="情感上"></a>情感上</h2><p>2024年了，回望过去，我的情感状态似乎并没有太多变化，依然是那个母胎solo的我。有时候，我会觉得社区像是我的“孩子”一般。她总是有各种问题，总是那样贴切，就像是生活中的一部分，而我在键盘上的“replay”，也能让我嘴角上扬，带着一种奇怪的满足感。说实话，外人可能觉得这种想法挺离谱的，毕竟对我来说，别人总是觉得我像张白纸。</p><p>但我心里明白，我还是希望在这片世界中能留下点什么，那种浓墨重彩的痕迹，哪怕只是点滴。虽然看起来我似乎在“与社区的互动”中找到了某种情感寄托，但我的心里最深处还是知道，那一切都不过是随缘而已，毕竟，真正的感情，谁能预料呢？有时候，也许我就是那个不知所措的“爸爸”，带着这个充满问题、充满成长的“孩子”——社区，但却从未谈过恋爱。也许，某些情感上的表达，永远都不会完美，更多的是天马行空和抽象的幻想。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 日常 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hello-sitan</title>
+      <link href="/sitan/2025/02/25/hello-sitan/"/>
+      <url>/sitan/2025/02/25/hello-sitan/</url>
+      
+        <content type="html"><![CDATA[<h1 id="欢迎来到我的Blog"><a href="#欢迎来到我的Blog" class="headerlink" title="欢迎来到我的Blog"></a>欢迎来到我的Blog</h1><blockquote><p>现在是重新构建的blog ，请保持写作的热情，GO！！！</p></blockquote><p>送自己的一段话：</p><p>​工作只是生活的一部分，请保持对生活的欢喜，继续坚持内心的想法，多多肯定自己 ✌️。</p><p><img src="https://raw.githubusercontent.com/6wensitan/drawBoard/main/img/image-20250307145157653.png" alt="image-20250307145157653"></p><h3 id="git-推送"><a href="#git-推送" class="headerlink" title="git 推送"></a>git 推送</h3><p>检查 .git 状态</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>初始化仓库</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd .deploy_git</span><br><span class="line">git init</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>清理重新部署</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Start Page </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>

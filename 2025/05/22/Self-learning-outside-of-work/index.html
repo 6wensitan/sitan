@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head prefix="og: https://ogp.me/ns#">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  
+  <title>Self-learning outside of work - Sitan&#39;s Blog</title>
+  
+    <link rel="shortcut icon" href="/sitan/sitan/hello.jpg">
+  
+  
+    <link rel='manifest' href='/manifest.json'>
+  
+
+  
+  
+  
+  <meta property="og:title" content="Self-learning outside of work - Sitan&#39;s Blog" />
+  
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:url" content="https://6wensitan.github.io/sitan/2025/05/22/Self-learning-outside-of-work/index.html" />
+  
+  <meta property="og:image" content="/sitan/hello.jpg" />
+  
+  <meta property="og:article:published_time" content="2025-05-22T15:35:02.000Z" />
+  
+  <meta property="og:article:author" content="Sitan Park" />
+  
+  
+
+  
+<link rel="stylesheet" href="/sitan/css/var.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/main.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/typography.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/code-highlighting.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/components.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/nav.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/paginator.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/footer.css">
+
+  
+<link rel="stylesheet" href="/sitan/css/post-list.css">
+
+  
+  
+<link rel="stylesheet" href="/sitan/css/rainbow-banner.css">
+
+  
+  
+  
+<link rel="stylesheet" href="/sitan/css/toc.css">
+
+  
+  
+  
+  
+  
+<link rel="stylesheet" href="/sitan/css/post.css">
+
+  
+  
+  
+  
+  
+
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+    <body
+        data-color-scheme="auto"
+        data-uppercase-categories="true"
+        
+        data-rainbow-banner="true"
+        data-rainbow-banner-shown="auto"
+        data-rainbow-banner-month="6"
+        data-rainbow-banner-colors="#e50000,#ff8d00,#ffee00,#008121,#004cff,#760188"
+        
+        data-config-root="/sitan/"
+        
+        data-toc="true"
+        data-toc-max-depth="2"
+        
+        
+    >
+        <nav id="theme-nav">
+    <div class="inner">
+        <a class="title" href="/sitan/">Blog</a>
+        <div class="nav-arrow"></div>
+        <div class="nav-items">
+            <a class="nav-item nav-item-home" href="/sitan/">Home</a>
+            
+            
+            <a class="nav-item" href="/sitan/archives">Archives</a>
+            
+            
+            
+            <a class="nav-item" href="/sitan/about">About</a>
+            
+            
+            
+            <a class="nav-item nav-item-github nav-item-icon" href="https://github.com/6wensitan" target="_blank" aria-label="GitHub">&nbsp;</a>
+            
+            
+            
+            <a class="nav-item" target="_blank" rel="noopener" href="https://www.youtube.com/@sitanwen8960">Youtube</a>
+            
+            
+        </div>
+    </div>
+</nav>
+        
+<article class="post">
+    <div class="meta">
+        
+
+        
+        <div class="date" id="date">
+            <span>May</span>
+            <span>22,</span>
+            <span>2025</span>
+        </div>
+        
+
+        <h1 class="title">Self-learning outside of work</h1>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="content">
+        <h1 id="工作之外的自我学习"><a href="#工作之外的自我学习" class="headerlink" title="工作之外的自我学习"></a>工作之外的自我学习</h1><blockquote>
+<p>（Self-learning outside of work）</p>
+<p>在快节奏的互联网时代，持续自我提升已成为软件工程师职业成长的必备要素。本文以“搭建个人博客”这一实战项目为案例，分享一条可复制的自主学习路径，帮助读者掌握高效的学习方法与实践技巧，并在过程中提升技术能力</p>
+</blockquote>
+<hr>
+<h2 id="一、项目背景与目标"><a href="#一、项目背景与目标" class="headerlink" title="一、项目背景与目标"></a>一、项目背景与目标</h2><p>随着个人技术作品和经验的积累，拥有一座能够展示自己能力与思考深度的“线上园地”――个人博客，变得越来越重要。通过搭建个人博客，你可以：</p>
+<ul>
+<li><strong>展示作品集</strong>：以可检索、永久保存的形式，向甲方、面试官或行业同行呈现你的技术成果。</li>
+<li><strong>巩固核心技能</strong>：Markdown 排版、静态站点生成器（如 Hexo）、CI&#x2F;CD 流程与容器化部署均是当下主流技术栈的一部分。</li>
+<li><strong>提升表达与写作能力</strong>：撰写技术文章，既是对学习成果的梳理，也能锻炼逻辑与写作技巧。</li>
+</ul>
+<p>本案例的<strong>大目标</strong>是：构建一个完整的个人博客站点，包括定制主题、自动化部署与评论系统（排期中）；<strong>小目标</strong>则涵盖基础的静态站点搭建与第一篇 Markdown 文章的发布。</p>
+<p>在个人博客项目中，CI&#x2F;CD 流程负责：</p>
+<ol>
+<li><strong>CI</strong> 阶段：将 Hexo 源码编译成静态页面，并运行可能的单元&#x2F;集成测试（如自定义脚本检查 Markdown 规范）。</li>
+<li><strong>CD</strong> 阶段：将静态页面部署到托管平台（Github），并通知我们部署结果。</li>
+</ol>
+<hr>
+<h2 id="二、三大学习路径"><a href="#二、三大学习路径" class="headerlink" title="二、三大学习路径"></a>二、三大学习路径</h2><p>为实现上述目标，本文提出三大互补的“自主学习路径”，帮助你在动手实践、信息获取和社区协作中不断进阶。</p>
+<h3 id="1-路径一：动手教程（Hands-On-Tutorial）"><a href="#1-路径一：动手教程（Hands-On-Tutorial）" class="headerlink" title="1. 路径一：动手教程（Hands-On Tutorial）"></a>1. 路径一：动手教程（Hands-On Tutorial）</h3><ul>
+<li><strong>小步骤</strong>：<ol>
+<li>阅读至少 3 篇高口碑的 Hexo 入门教程，完成“Hello World”示例。</li>
+<li>理解并手动编写 <code>Dockerfile</code>，在本地利用 Docker Compose 启动调试环境。（可以用hexo框架）</li>
+</ol>
+</li>
+<li><strong>大里程碑</strong>：<ol>
+<li>利用 GitHub Actions 将代码编译、测试、打包为静态文件。</li>
+<li>配合  picgo+github图床，通过 CI&#x2F;CD 实现“一键发布”。</li>
+<li>对主题样式、布局进行二次开发，满足移动端与 PC 端的体验一致性。</li>
+</ol>
+</li>
+</ul>
+<p><strong>价值</strong>：通过系统性的动手操作，你不仅能快速掌握工具链的使用，还能在实践中积累故障排查经验，为下一步更高阶的优化奠定基础。</p>
+<h3 id="2-路径二：持续阅读（Knowledge-Harvest）"><a href="#2-路径二：持续阅读（Knowledge-Harvest）" class="headerlink" title="2. 路径二：持续阅读（Knowledge Harvest）"></a>2. 路径二：持续阅读（Knowledge Harvest）</h3><ul>
+<li><strong>V2EX 每日精选</strong>：每天浏览“分享与创造”节点，收集社区中独立开发者的创意与最佳实践，从中获得灵感；</li>
+<li><strong>Hacker News</strong>：关注技术、创业与安全领域的深度文章，直接与作者在评论区互动，探讨实现细节与优化思路；</li>
+<li><strong>养成笔记习惯</strong>：将每天的灵感、问题与答案记录在个人知识库中（如 typora，blog日志），并定期复盘与输出。</li>
+</ul>
+<p><strong>价值</strong>：高质量的资讯来源能帮助你及时捕捉行业趋势与技术热点，同时对比多种实践方案，让你在决策时更加从容。</p>
+<h3 id="3-路径三：开源贡献（Community-Driven-Growth）"><a href="#3-路径三：开源贡献（Community-Driven-Growth）" class="headerlink" title="3. 路径三：开源贡献（Community-Driven Growth）"></a>3. 路径三：开源贡献（Community-Driven Growth）</h3><ul>
+<li><strong>文档与开发者体验</strong>：除了代码，开源项目的文档、演示示例、社区支持同样重要；</li>
+<li><strong>从小 PR 入手</strong>：在 GitHub 上寻找带有 “good first issue” 或文档修正的任务，提交一次小型 PR（如修正拼写、补充示例），并根据维护者反馈不断迭代；</li>
+<li><strong>团队协作流程</strong>：在实际贡献过程中，你将深入学习版本控制规范、代码评审流程、分支管理及持续集成实践。</li>
+</ul>
+<p><strong>价值</strong>：开源贡献不仅让你的代码能够被更多人复用与检验，还能让你结识同领域的技术大牛，提升社区影响力与职业口碑。</p>
+<hr>
+<h2 id="三、实施步骤与关键实践"><a href="#三、实施步骤与关键实践" class="headerlink" title="三、实施步骤与关键实践"></a>三、实施步骤与关键实践</h2><ol>
+<li><strong>环境搭建</strong><ul>
+<li>安装 Hexo 并选择一个基础主题；</li>
+<li>配置 PicGo 与 github仓库，实现图片的可控托管。</li>
+</ul>
+</li>
+<li><strong>持续集成</strong><ul>
+<li>编写 GitHub Actions Workflow：包括代码检出、依赖安装、Hexo 编译、结果发布到静态托管平台；</li>
+</ul>
+</li>
+<li><strong>定制主题与体验优化</strong><ul>
+<li>调整布局与配色，兼顾易读性与美观；</li>
+<li>集成评论初步计划是采用github的issues作为记录；</li>
+<li>后期集成第三方评论系统（如 Utterances）与数据分析（Google Analytics）。</li>
+</ul>
+</li>
+<li><strong>开源实践</strong><ul>
+<li>定期浏览相关仓库的 issue 列表，主动挑选小任务；</li>
+<li>在 PR 中主动沟通，记录每一次代码审查中的改进要点；</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="四、成果与评估"><a href="#四、成果与评估" class="headerlink" title="四、成果与评估"></a>四、成果与评估</h2><ul>
+<li><strong>小成果</strong>：<ul>
+<li>在两天内完成首篇文章上线；</li>
+<li>主题配置零报错，图片托管功能稳定可靠。</li>
+</ul>
+</li>
+<li><strong>大成果</strong>：<ul>
+<li>CI&#x2F;CD 流程成熟，基本2分钟；</li>
+<li>已成功合并开源项目 PR 2 个，获得维护者肯定。</li>
+</ul>
+</li>
+<li><strong>软收益</strong>：<ul>
+<li>写作与演讲素材丰富，后续可持续产出技术干货；</li>
+<li>在开源社区积累经验和结识优秀技术大能</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="五、经验总结与行动建议"><a href="#五、经验总结与行动建议" class="headerlink" title="五、经验总结与行动建议"></a>五、经验总结与行动建议</h2><ol>
+<li><strong>结构化学习最重要</strong>：将大目标拆解为阶段性小目标，通过 Sprint 式管理让进度可视化；</li>
+<li><strong>“小胜利”激励前进</strong>：每完成一个小任务，就记录与分享，保持学习动力；</li>
+<li><strong>社区互动加速成长</strong>：主动提问、评论与贡献，让你在实战中体会“知识的二次生长”；</li>
+<li><strong>持续复盘与输出</strong>：将学习心得形成文章或演讲内容，不仅是对自我成果的沉淀，也是对他人的帮助。</li>
+</ol>
+
+    </div>
+
+    <div class="container post-prev-next">
+        
+        <a href="/sitan/2025/05/22/%E5%85%AC%E5%91%8A%E5%92%8C%E6%B6%88%E6%81%AF%E9%80%9A%E7%9F%A5%E7%B3%BB%E7%BB%9F%E5%8D%87%E7%BA%A7/" class="next">
+            <div>
+                <div class="text">
+                    <p class="label">Next</p>
+                    <h3 class="title">公告和消息通知系统升级</h3>
+                </div>
+            </div>
+        </a>
+        
+        
+        <a href="/sitan/2025/03/31/%E5%BF%83%E6%82%B8%E7%9A%84%E9%82%A3%E4%B8%80%E9%83%A8%E5%88%86/" class="prev">
+            <div>
+                <div class="text">
+                    <p class="label">Previous</p>
+                    <h3 class="title">心悸的那一部分</>
+                </div>
+            </div>
+        </a>
+        
+    </div>
+
+    
+        
+        
+    
+</article>
+
+        <footer>
+    <div class="inner">
+        <div class="links">
+            
+            <div class="group">
+                <h2 class="title">Blog</h2>
+                
+                <a href="/sitan" class="item">Blog</a>
+                
+                <a href="/sitan/archives" class="item">Archives</a>
+                
+                <a href="/sitan/tags" class="item">Tags</a>
+                
+                <a href="/sitan/categories" class="item">Categories</a>
+                
+                <a href="/sitan/about" class="item">About</a>
+                
+            </div>
+            
+            <div class="group">
+                <h2 class="title">Me</h2>
+                
+                <a target="_blank" rel="noopener" href="https://github.com/6wensitan" class="item">GitHub</a>
+                
+                <a href="mailto:chunhengpeng@outlook.com" class="item">Email</a>
+                
+            </div>
+            
+        </div>
+        <span>&copy; 2025 Sitan Park<br>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> </span>
+        
+        
+            <br>
+            <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle">
+                <label>
+                    <input type="radio" value="light">
+                    <span>Light</span>
+                </label>
+                <label>
+                    <input type="radio" value="dark">
+                    <span>Dark</span>
+                </label>
+                <label>
+                    <input type="radio" value="auto">
+                    <span>Auto</span>
+                </label>
+            </div>
+        
+    </div>
+</footer>
+
+
+        
+<script src="/sitan/js/main.js"></script>
+
+        
+        
+        
+
+        
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            window.addEventListener('load', () => {
+                ScrollReveal({ delay: 250, reset: true, easing: 'cubic-bezier(0, 0, 0, 1)' })
+                ScrollReveal().reveal('.post-list-item .cover-img img')
+                ScrollReveal().reveal('.post-list-item, .card, .content p img, .content .block-large img', { distance: '60px', origin: 'bottom', duration: 800 })
+            })
+        </script>
+        
+    </body>
+</html>
